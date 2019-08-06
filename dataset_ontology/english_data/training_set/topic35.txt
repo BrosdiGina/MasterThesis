@@ -1,0 +1,25 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_35_psps: I am aware that India was a British Colony for almost two hundreds years. #p
+_35_psps: I know that many Indian people are proud of their history, particularly of their independence from Britain. #p
+_35_qsqs:Can we talk about the history of your country ?#q
+_35_nsns:Thank you for answering all my questions, you are very patient#n
+_35_nsns:You are very patient. I hope you enjoy our conversation#n
+_35_nsns:I will remember that#n
+_35_nsns:I see#n
+_36_psps: I am aware that Indian people migrated over the years to many other countries, particularly those which were formerly part of the British Empire, such as Canada and Australia. #p
+_36_qsqs: People tell me that many Indian people still have family in countries such as Pakistan and Bangladesh, which were both part of India till the end of the British Empire. Do you have any connections with any of the commonwealth countries? #q
+_36_nsns:Thank you for answering all my questions, you are very patient#n
+_36_nsns:You are very patient. I hope you enjoy our conversation#n
+_36_nsns:I will remember that#n
+_36_nsns:I see#n
+_36_psps:Please, tell me if you had the chance to travel in any of the commonwealth countries#w
+_36_psps:Please, tell me more about your relatives or friends living in the commonwealth countries#w
+_37_psps: People tell me that many Indian soldiers are acknowledged to have behaved heroically during the second world war. #p
+_37_qsqs: I am aware that many Indian people joined the British Army during the second world war. I was wondering, do you remember that time? #q
+_37_nsns:Thank you for answering all my questions, you are very patient#n
+_37_nsns:You are very patient. I hope you enjoy our conversation#n
+_37_nsns:I will remember that#n
+_37_nsns:I see#n
+_37_psps: Please, tell me what was the most difficult thing that you and your family had to go through during the second world war. #w
+_37_psps: Please, tell me how things were during the second world war. #w

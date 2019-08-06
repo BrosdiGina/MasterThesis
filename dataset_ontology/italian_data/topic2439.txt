@@ -1,0 +1,12 @@
+topic: ~DEADPERSON()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_2439_psps:Capisco che la persona di cui stai parlando, purtroppo, se n'è andata.#p
+_2439_qsqs:Ho capito bene che la persona di cui stai parlando, purtroppo, è mancata?#q
+_2439_nsns:Me lo ricorderò#n
+_2439_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2439_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2439_nsns:Lo vedo#n
+_2439_psps:Ti farebbe piacere parlarmi di questa persona? Sarei felice di ascoltare.#w

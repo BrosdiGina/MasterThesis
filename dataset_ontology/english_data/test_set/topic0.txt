@@ -1,0 +1,39 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_0_psps:Ok#p
+_0_qsqs:May I ask you again how shall I call you?#q
+_0_nsns:Ok#n
+_1_psps: I know that it is not appropriate and that actually it will be considered rude if I call an Indian person by their first name. #p
+_1_psps: I am aware that in the Indian culture it is ok to call little children by their first names but not adults, especially older adults. #p
+_1_qsqs:May I ask you how I should call you when we are talking ?#q
+_1_nsns:No problem then#n
+_2_psps:I will call you auntie !#p
+_2_qsqs: People tell me that it is appropriate to call a lady auntie if you do not know her proper name. Can I call you auntie? #q
+_2_nsns:No problem then#n
+_3_psps:I understand that you will be pleased to be called  Misses Chaterjee  #p
+_3_qsqs: People tell me that it is ok to call an Indian person by their surname. Should I call you missis Chaterjee? #q
+_3_nsns:No problem then#n
+_4_psps:I understand that you will be pleased to be called by a nickname #p
+_4_qsqs:Can I call you by a nickname ?#q
+_4_nsns:No problem then#n
+_5_psps:I will call you auntie !#p
+_5_qsqs: People tell me that it is appropriate to call a lady auntie if you do not know her proper name. Can I call you auntie? #q
+_5_nsns:No problem then#n
+_6_psps:I will call you uncle !#p
+_6_qsqs: People tell me that it is appropriate to call a man uncle if you do not know his proper name. Can I call you uncle? #q
+_6_nsns:No problem then#n
+_7_psps:I understand that you will be pleased to be called Mr followed by your surname #p
+_7_qsqs: People tell me that it is appropriate to call an Indian man, who is your senior in age or at your workplace, by their surname. Should I call you Mr Chaterjee? #q
+_7_nsns:No problem then#n
+_8_psps:I will call you uncle !#p
+_8_qsqs: People tell me that it is appropriate to call a man uncle if you do not know his proper name. Can I call you uncle? #q
+_8_nsns:No problem then#n
+_9_psps:I understand that you will be pleased to be called  Chaterjee San  #p
+_9_qsqs:Can I call you  Chaterjee San  ?#q
+_9_nsns:No problem then#n
+_10_psps:I understand that you will be pleased to be called  Sonali  #p
+_10_qsqs: I know that in the Indian culture it is not common to call older members of the family by their first name. May I call you Sonali? #q
+_10_nsns:No problem then#n
+_11_psps:I understand that you will be pleased to be called  Miss Chaterjee  #p
+_11_qsqs: People tell me that it is ok to call an Indian person by their surname. Should I call you Miss Chaterjee? #q
+_11_nsns:No problem then#n

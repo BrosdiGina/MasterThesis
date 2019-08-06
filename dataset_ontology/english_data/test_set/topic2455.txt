@@ -1,0 +1,26 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_2455_psps: People tell me that being polite and having good manners is very important in the Indian culture. #p
+_2455_qsqs:I'd love to know what you think about good manners . Would you mind talking about good manners with me ?#q
+_2455_nsns:Thank you for answering all my questions, you are very patient#n
+_2455_nsns:You are very patient. I hope you enjoy our conversation#n
+_2455_nsns:I will remember that#n
+_2455_nsns:I see#n
+_2455_psps:I understand that manners can be different for different people. Please, tell me about good manners that matter to you.#w
+_2456_psps: I know that If you are invited to a Indian's home, the Indian gift giving custom is to bring the host or hostess a small gift of chocolates or flowers. #p
+_2456_psps: I know that it is not a good idea to wrap gifts in white or black colors, which are considered unlucky colors. Instead use bright colors such as green, red, yellow. #p
+_2456_qsqs: I know that exchanging gifts is very much appreciated in the Indian culture. Do you think that giving a present to a relative or a friend is a nice thing to do? #q
+_2456_nsns:Thank you for answering all my questions, you are very patient#n
+_2456_nsns:You are very patient. I hope you enjoy our conversation#n
+_2456_nsns:I will remember that#n
+_2456_nsns:I see#n
+_2456_psps:Please, tell me on which occasions giving a present to a relative or a friend is appropriate#w
+_2456_psps:Please, tell me about good manners when it comes to presents#w
+_2457_psps:stacking dishes after a meal is a sign of cooperation with the carer, thank you!#p
+_2457_psps:stacking dishes after a meal helps the staff understand that you have finished your meal.#p
+_2457_qsqs:Is stacking dishes after a meal polite ?#q
+_2457_nsns:Thank you for answering all my questions, you are very patient#n
+_2457_nsns:You are very patient. I hope you enjoy our conversation#n
+_2457_nsns:I will remember that#n
+_2457_nsns:I see#n
+_2457_psps:Please, tell me what you think about stacking dishes after a meal #w

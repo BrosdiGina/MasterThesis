@@ -1,0 +1,9 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_2458_psps: I understand that the person you are speaking about has sadly passed away. People tell me that remembering those who have passed away is very important in the Indian culture. #p
+_2458_qsqs:Have I understood correctly that the person you are speaking about has sadly passed away?#q
+_2458_nsns:Thank you for answering all my questions, you are very patient#n
+_2458_nsns:You are very patient. I hope you enjoy our conversation#n
+_2458_nsns:I will remember that#n
+_2458_nsns:I see#n
+_2458_psps:Would you like to speak about this person? I'd be happy to listen#w

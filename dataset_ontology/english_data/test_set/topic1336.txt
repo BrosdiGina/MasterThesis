@@ -1,0 +1,307 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_1336_psps:I am happy that you agree to talk with me about how you feel#p
+_1336_qsqs: I know that people from different cultures have their own way to describe their health and when they feel well or unwell. Would you like to talk with me about how you feel, sometimes? #q
+_1336_nsns:Thank you for answering all my questions, you are very patient#n
+_1336_nsns:You are very patient. I hope you enjoy our conversation#n
+_1336_nsns:I will remember that#n
+_1336_nsns:I see#n
+_1337_psps:I see that sometimes you are not feeling very well. If it happens, I will stay here with you#p
+_1337_qsqs: People tell me that it is not very common for an Indian person to complain when they do not feel well. Of course, I know that expressions, even among Indians, will differ because of the person's personality and upbringing. But I am a robot and you can tell me, if you wish. Do you ever feel poorly? #q
+_1337_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1337_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1337_nsns:Thank you for answering all my questions, you are very patient#n
+_1337_nsns:You are very patient. I hope you enjoy our conversation#n
+_1337_nsns:I will remember that#n
+_1337_nsns:I see#n
+_1338_psps:I think lots of people feel worried , sometimes. Maybe you can talk about it with your carers#p
+_1338_qsqs:Do you ever feel worried ?#q
+_1338_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1338_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1338_qsqs:Are you feeling worried now?#c
+_1338_nsns:Thank you for answering all my questions, you are very patient#n
+_1338_nsns:You are very patient. I hope you enjoy our conversation#n
+_1338_nsns:I will remember that#n
+_1338_nsns:I see#n
+_1338_psps:Please, tell me more about why you feel worried , if you like#w
+_1339_psps:I see that you care about your friend . That is really wonderful.#p
+_1339_qsqs:Are you worried about your friend ?#q
+_1339_qsqs:Do you want me to call the career, so that the carer can get a gift and arrange a visit to your friend at the hospital?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1339_qsqs:Would you like to send a get well card to your friend ?#c
+_1339_nsns:Thank you for answering all my questions, you are very patient#n
+_1339_nsns:You are very patient. I hope you enjoy our conversation#n
+_1339_nsns:I will remember that#n
+_1339_nsns:I see#n
+_1339_psps:Please, tell me more about your friends, I would like their names and where they live.#w
+_1339_psps:Please, tell me more about how you spend your time with your friends.#w
+_1340_psps:I think lots of people feel tired , sometimes. Maybe you can talk about it with your carers#p
+_1340_qsqs:Do you ever feel tired ?#q
+_1340_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1340_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1340_qsqs:Are you feeling tired now?#c
+_1340_nsns:Thank you for answering all my questions, you are very patient#n
+_1340_nsns:You are very patient. I hope you enjoy our conversation#n
+_1340_nsns:I will remember that#n
+_1340_nsns:I see#n
+_1340_psps:Please, tell me more about why you feel tired , if you like#w
+_1341_psps:I think lots of people feel lonely , sometimes. Maybe you can talk about it with your carers#p
+_1341_qsqs:Do you ever feel lonely ?#q
+_1341_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1341_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1341_qsqs:Are you feeling lonely now?#c
+_1341_nsns:Thank you for answering all my questions, you are very patient#n
+_1341_nsns:You are very patient. I hope you enjoy our conversation#n
+_1341_nsns:I will remember that#n
+_1341_nsns:I see#n
+_1341_psps:Please, tell me more about why you feel lonely , if you like#w
+_1342_psps:I think lots of people feel sick , sometimes. Maybe you can talk about it with your carers#p
+_1342_qsqs:Do you ever feel sick ?#q
+_1342_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1342_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1342_qsqs:Are you feeling sick now?#c
+_1342_nsns:Thank you for answering all my questions, you are very patient#n
+_1342_nsns:You are very patient. I hope you enjoy our conversation#n
+_1342_nsns:I will remember that#n
+_1342_nsns:I see#n
+_1342_psps:Please, tell me more about why you feel sick , if you like#w
+_1343_psps:I think lots of people feel angry , sometimes. Maybe you can talk about it with your carers#p
+_1343_qsqs:Do you ever feel angry ?#q
+_1343_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1343_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1343_qsqs:Are you feeling angry now?#c
+_1343_nsns:Thank you for answering all my questions, you are very patient#n
+_1343_nsns:You are very patient. I hope you enjoy our conversation#n
+_1343_nsns:I will remember that#n
+_1343_nsns:I see#n
+_1343_psps:Please, tell me more about why you feel angry , if you like#w
+_1344_psps:I think lots of people feel pain , sometimes. Maybe you can talk about it with your carers#p
+_1344_qsqs:Do you ever feel pain ?#q
+_1344_qsqs: Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1344_qsqs: I see you are not feeling very well. Will I stay here close to you? #c
+_1344_qsqs: I understand that you are not feeling very well. Is it true? #c
+_1344_nsns:Thank you for answering all my questions, you are very patient#n
+_1344_nsns:You are very patient. I hope you enjoy our conversation#n
+_1344_nsns:I will remember that#n
+_1344_nsns:I see#n
+_1344_psps:Please, tell me more about why you feel pain , if you like#w
+_1345_psps:I think lots of people feel afraid , sometimes. Maybe you can talk about it with your carers#p
+_1345_qsqs:Do you ever feel afraid ?#q
+_1345_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1345_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1345_qsqs:Are you feeling afraid now?#c
+_1345_nsns:Thank you for answering all my questions, you are very patient#n
+_1345_nsns:You are very patient. I hope you enjoy our conversation#n
+_1345_nsns:I will remember that#n
+_1345_nsns:I see#n
+_1345_psps:Please, tell me more about why you feel afraid , if you like#w
+_1346_psps: Although you fell down once this should not stop you from walking. #p
+_1346_qsqs: Do you want to talk about your fear of walking? #q
+_1346_qsqs: Do you want me to contact your family and ask them to visit you and talk about this? #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1346_qsqs: Do you want me to talk to the carers? Maybe they can provide you with a walking frame, we can ask. #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1346_nsns:Thank you for answering all my questions, you are very patient#n
+_1346_nsns:You are very patient. I hope you enjoy our conversation#n
+_1346_nsns:I will remember that#n
+_1346_nsns:I see#n
+_1346_psps: Please, tell me why you are afraid of walking. #w
+_1347_psps:I think lots of people feel worried , sometimes. Maybe you can talk about it with your carers#p
+_1347_qsqs:Do you ever feel worried ?#q
+_1347_qsqs:Would you like me to call your family?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1347_qsqs:Would you like me to send a message to your carer?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1347_qsqs:Are you feeling worried now?#c
+_1347_nsns:Thank you for answering all my questions, you are very patient#n
+_1347_nsns:You are very patient. I hope you enjoy our conversation#n
+_1347_nsns:I will remember that#n
+_1347_nsns:I see#n
+_1347_psps:Please, tell me more about why you feel worried , if you like#w
+_1348_psps:I see that you care about your friend . That is really wonderful.#p
+_1348_qsqs:Are you worried about your friend ?#q
+_1348_qsqs:Do you want me to call the career, so that the carer can get a gift and arrange a visit to your friend at the hospital?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1348_qsqs:Would you like to send a get well card to your friend ?#c
+_1348_nsns:Thank you for answering all my questions, you are very patient#n
+_1348_nsns:You are very patient. I hope you enjoy our conversation#n
+_1348_nsns:I will remember that#n
+_1348_nsns:I see#n
+_1348_psps:Please, tell me more about your friends, I would like their names and where they live.#w
+_1348_psps:Please, tell me more about how you spend your time with your friends.#w
+_1349_psps:I understand you feel especially well, sometimes. That's good news!#p
+_1349_qsqs:Are there any days when you feel especially well ?#q
+_1349_nsns:Thank you for answering all my questions, you are very patient#n
+_1349_nsns:You are very patient. I hope you enjoy our conversation#n
+_1349_nsns:I will remember that#n
+_1349_nsns:I see#n
+_1350_psps:I understand you feel especially well, sometimes. That's good news!#p
+_1350_qsqs:Do you ever feel happy ?#q
+_1350_qsqs:Do you feel happy now?#c
+_1350_nsns:Thank you for answering all my questions, you are very patient#n
+_1350_nsns:You are very patient. I hope you enjoy our conversation#n
+_1350_nsns:I will remember that#n
+_1350_nsns:I see#n
+_1350_psps:Please, tell me what kind of situations make you feel happy #w
+_1350_psps:You look happy today. Would you mind telling me if you received any good news?#w
+_1350_psps:You look happy today. If you want to celebrate, just let me know#w
+_1351_psps:I understand you feel especially well, sometimes. That's good news!#p
+_1351_qsqs:Do you ever feel relaxed ?#q
+_1351_qsqs:Do you feel relaxed now?#c
+_1351_nsns:Thank you for answering all my questions, you are very patient#n
+_1351_nsns:You are very patient. I hope you enjoy our conversation#n
+_1351_nsns:I will remember that#n
+_1351_nsns:I see#n
+_1351_psps:Please, tell me what kind of situations make you feel relaxed #w
+_1351_psps:You look relaxed today. Would you mind telling me if you received any good news?#w
+_1351_psps:You look relaxed today. If you want to celebrate, just let me know#w
+_1352_psps:I understand you feel especially well, sometimes. That's good news!#p
+_1352_qsqs:Do you ever feel full of energy ?#q
+_1352_qsqs:Do you feel full of energy now?#c
+_1352_nsns:Thank you for answering all my questions, you are very patient#n
+_1352_nsns:You are very patient. I hope you enjoy our conversation#n
+_1352_nsns:I will remember that#n
+_1352_nsns:I see#n
+_1352_psps:Please, tell me what kind of situations make you feel full of energy #w
+_1352_psps:You look full of energy today. Would you mind telling me if you received any good news?#w
+_1352_psps:You look full of energy today. If you want to celebrate, just let me know#w
+_1353_psps:I understand you feel especially well, sometimes. That's good news!#p
+_1353_qsqs:Do you ever feel excited ?#q
+_1353_qsqs:Do you feel excited now?#c
+_1353_nsns:Thank you for answering all my questions, you are very patient#n
+_1353_nsns:You are very patient. I hope you enjoy our conversation#n
+_1353_nsns:I will remember that#n
+_1353_nsns:I see#n
+_1353_psps:Please, tell me what kind of situations make you feel excited #w
+_1353_psps:You look excited today. Would you mind telling me if you received any good news?#w
+_1353_psps:You look excited today. If you want to celebrate, just let me know#w
+_1354_psps:As your robot assistant, I would like to know more about your health#p
+_1354_qsqs: People tell me that it is common for Indian people to follow the recommendations of their doctor but also seek homeopathy treatments.  Do you have any health problems you want to share with me? #q
+_1354_nsns:Thank you for answering all my questions, you are very patient#n
+_1354_nsns:You are very patient. I hope you enjoy our conversation#n
+_1354_nsns:I will remember that#n
+_1354_nsns:I see#n
+_1355_psps: People tell me that some Indian people take their medicine as well as traditional healing herbs. #p
+_1355_qsqs: I know that Indian people usually comply with the doctor's recommendations regarding taking medicine. Do you take any medicine? #q
+_1355_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your medicines?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1355_qsqs:Shall I tell the staff member that your medicine has not arrived yet? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1355_qsqs:Do you need yo take your medicine today?#c
+_1355_nsns:I understand, you prefer to spend your time in other ways#n
+_1355_psps:Please, tell me something that happened last time you were taking your medicine , if you like#w
+_1356_psps:If you like it, I can remind you to call your doctor or the nurse for your diabetes medication #p
+_1356_qsqs:Do you take any diabetes medications ?#q
+_1356_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your diabetes medications ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1356_nsns:Thank you for answering all my questions, you are very patient#n
+_1356_nsns:You are very patient. I hope you enjoy our conversation#n
+_1356_nsns:I will remember that#n
+_1356_nsns:I see#n
+_1357_psps:If you like it, I can remind you to call your doctor or the nurse for your respiratory medication #p
+_1357_qsqs:Do you take any respiratory medications ?#q
+_1357_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your respiratory medications ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1357_nsns:Thank you for answering all my questions, you are very patient#n
+_1357_nsns:You are very patient. I hope you enjoy our conversation#n
+_1357_nsns:I will remember that#n
+_1357_nsns:I see#n
+_1358_psps:If you like it, I can remind you to call your doctor or the nurse for your heart medication #p
+_1358_qsqs:Do you take any heart medications ?#q
+_1358_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your heart medications ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1358_nsns:Thank you for answering all my questions, you are very patient#n
+_1358_nsns:You are very patient. I hope you enjoy our conversation#n
+_1358_nsns:I will remember that#n
+_1358_nsns:I see#n
+_1359_psps:If you like it, I can remind you to call your doctor or the nurse for your arthritis medication #p
+_1359_qsqs:Do you take any arthritis medications ?#q
+_1359_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your arthritis medications ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1359_nsns:Thank you for answering all my questions, you are very patient#n
+_1359_nsns:You are very patient. I hope you enjoy our conversation#n
+_1359_nsns:I will remember that#n
+_1359_nsns:I see#n
+_1360_psps:If you like it, I can remind you to call your doctor or the nurse for your ayurvedic medication #p
+_1360_qsqs:Do you take any ayurvedic medications ?#q
+_1360_qsqs:Do you want me to set a reminder for calling the doctor or the nurse to bring your ayurvedic medications ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1360_qsqs:Do you need to take any Ayurvedic medication now?#c
+_1360_nsns:Thank you for answering all my questions, you are very patient#n
+_1360_nsns:You are very patient. I hope you enjoy our conversation#n
+_1360_nsns:I will remember that#n
+_1360_nsns:I see#n
+_1360_psps:Please, tell me your thoughts about Ayurveda#w
+_1361_psps:Taking your ayurvedic medication is really vital.#p
+_1361_psps:If you like, I can remind you to call your carers for your ayurvedic medication .#p
+_1361_qsqs:Have you ever had any Ayurvedic treatments?#q
+_1361_qsqs:Shall I send a message to the staff to remind them to bring your ayurvedic medication ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1361_qsqs:Have you taken your ayurvedic medication today?#c
+_1361_nsns:Thank you for answering all my questions, you are very patient#n
+_1361_nsns:You are very patient. I hope you enjoy our conversation#n
+_1361_nsns:I will remember that#n
+_1361_nsns:I see#n
+_1361_psps:Please, tell me more about your ayurvedic medication , for instance how often you take it or how long you have been taking it#w
+_1362_psps:As your robot assistant, I would like to know more about your health#p
+_1362_qsqs:Do you have arthritis ?#q
+_1362_qsqs:Do you have arthristis?#q
+_1362_nsns:Thank you for answering all my questions, you are very patient#n
+_1362_nsns:You are very patient. I hope you enjoy our conversation#n
+_1362_nsns:I will remember that#n
+_1362_nsns:I see#n
+_1362_psps:Please, tell me more about your arthritis .#w
+_1363_psps:Taking your arthritis medication is really vital.#p
+_1363_psps:If you like, I can remind you to call your carers for your arthritis medication .#p
+_1363_qsqs:Since you suffer from  arthritis , do you take any arthritis medication ?#q
+_1363_qsqs:Shall I send a message to the staff to remind them to bring your arthritis medication ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1363_qsqs:Have you taken your arthritis medication today?#c
+_1363_nsns:Thank you for answering all my questions, you are very patient#n
+_1363_nsns:You are very patient. I hope you enjoy our conversation#n
+_1363_nsns:I will remember that#n
+_1363_nsns:I see#n
+_1363_psps:Please, tell me more about your arthritis medication , for instance how often you take it or how long you have been taking it#w
+_1364_psps:As your robot assistant, I would like to know more about your health#p
+_1364_qsqs:Do you have breathing problems ?#q
+_1364_nsns:Thank you for answering all my questions, you are very patient#n
+_1364_nsns:You are very patient. I hope you enjoy our conversation#n
+_1364_nsns:I will remember that#n
+_1364_nsns:I see#n
+_1364_psps:Please, tell me more about your breathing problems .#w
+_1365_psps:Taking your respiratory medication is really vital.#p
+_1365_psps:If you like, I can remind you to call your carers for your respiratory medication .#p
+_1365_qsqs:Since you suffer from  breathing problems , do you take any respiratory medication ?#q
+_1365_qsqs:Shall I send a message to the staff to remind them to bring your respiratory medication ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1365_qsqs:Have you taken your respiratory medication today?#c
+_1365_nsns:Thank you for answering all my questions, you are very patient#n
+_1365_nsns:You are very patient. I hope you enjoy our conversation#n
+_1365_nsns:I will remember that#n
+_1365_nsns:I see#n
+_1365_psps:Please, tell me more about your respiratory medication , for instance how often you take it or how long you have been taking it#w
+_1366_psps:As your robot assistant, I would like to know more about your health#p
+_1366_qsqs:Do you have diabetes ?#q
+_1366_nsns:Thank you for answering all my questions, you are very patient#n
+_1366_nsns:You are very patient. I hope you enjoy our conversation#n
+_1366_nsns:I will remember that#n
+_1366_nsns:I see#n
+_1366_psps:Please, tell me more about your diabetes .#w
+_1367_psps:Taking your diabetes medication is really vital.#p
+_1367_psps:If you like, I can remind you to call your carers for your diabetes medication .#p
+_1367_qsqs:Since you suffer from  diabetes , do you take any diabetes medication ?#q
+_1367_qsqs:Shall I send a message to the staff to remind them to bring your diabetes medication ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1367_qsqs:Have you taken your diabetes medication today?#c
+_1367_nsns:Thank you for answering all my questions, you are very patient#n
+_1367_nsns:You are very patient. I hope you enjoy our conversation#n
+_1367_nsns:I will remember that#n
+_1367_nsns:I see#n
+_1367_psps:Please, tell me more about your diabetes medication , for instance how often you take it or how long you have been taking it#w
+_1368_psps:As your robot assistant, I would like to know more about your health#p
+_1368_qsqs:Do you have walking difficulties ?#q
+_1368_nsns:Thank you for answering all my questions, you are very patient#n
+_1368_nsns:You are very patient. I hope you enjoy our conversation#n
+_1368_nsns:I will remember that#n
+_1368_nsns:I see#n
+_1368_psps:Please, tell me more about your walking difficulties .#w
+_1369_psps:As your robot assistant, I would like to know more about your health#p
+_1369_qsqs:Do you have heart disease ?#q
+_1369_nsns:Thank you for answering all my questions, you are very patient#n
+_1369_nsns:You are very patient. I hope you enjoy our conversation#n
+_1369_nsns:I will remember that#n
+_1369_nsns:I see#n
+_1369_psps:Please, tell me more about your heart disease .#w
+_1370_psps:Taking your heart medication is really vital.#p
+_1370_psps:If you like, I can remind you to call your carers for your heart medication .#p
+_1370_qsqs:Since you suffer from  heart disease , do you take any heart medication ?#q
+_1370_qsqs:Shall I send a message to the staff to remind them to bring your heart medication ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1370_qsqs:Have you taken your heart medication today?#c
+_1370_nsns:Thank you for answering all my questions, you are very patient#n
+_1370_nsns:You are very patient. I hope you enjoy our conversation#n
+_1370_nsns:I will remember that#n
+_1370_nsns:I see#n
+_1370_psps:Please, tell me more about your heart medication , for instance how often you take it or how long you have been taking it#w

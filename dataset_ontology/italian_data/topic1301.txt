@@ -1,0 +1,108 @@
+topic: ~CELEBRATINGEVENTS()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_1301_psps:Sono felice di sapere che partecipi con entusiasmo alle festività#p
+_1301_psps:Sono davvero grato che tu spenda del tempo a spiegarmi le tue tradizioni e le tue usanze#p
+_1301_qsqs:Hai l'abitudine di celebrare gli eventi culturali o religiosi più importanti?#q
+_1301_qsqs:Partecipi alle festività e alle celebrazioni?#q
+_1301_nsns:Capisco, preferisci passare il tempo in un altro modo#n
+_1302_psps:A capodanno, la gente ovunque nel mondo si lascia andare a fare cose divertenti come cantare, giocare a dei giochi, ballare, e partecipare a festini#p
+_1302_qsqs:Festeggi il primo dell'anno ? #q
+_1302_nsns:Me lo ricorderò#n
+_1302_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1302_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1302_nsns:Lo vedo#n
+_1302_psps: Dimmi quale cibo ti piace di più mangiare a capodanno #w
+_1303_psps:Festeggiare i compleanni è un bel modo per spendere del tempo con la tua famiglia e i tuoi amici#p
+_1303_qsqs:Ti capita di festeggiare il compleanno di qualcuno della tua famiglia o di un amico?#q
+_1303_nsns:Me lo ricorderò#n
+_1303_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1303_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1303_nsns:Lo vedo#n
+_1303_psps:Per favore, raccontami come festeggi i compleanni nella tua famiglia#w
+_1303_psps:Per favore, raccontami dei regali che vorresti dare ai tuoi figli e ai tuoi nipoti per il loro compleanno#w
+_1304_psps:E' una bella cosa se ti ricordi il tuo compleanno #p
+_1304_psps:Festeggiare i compleanni è un bel modo per spendere del tempo con la tua famiglia e i tuoi amici#p
+_1304_qsqs:Festeggi il tuo compleanno ? #q
+_1304_qsqs:Vuoi che io ti ricordi di comprare un regalino per il tuo compleanno ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1304_qsqs:Vuoi che metta una sveglia per ricordarti di fare una telefonata per il tuo compleanno ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1304_nsns:Me lo ricorderò#n
+_1304_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1304_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1304_nsns:Lo vedo#n
+_1304_psps:Per favore, raccontami qualche storia riguardante il tuo compleanno #w
+_1305_psps:Autunno è il tempo del raccolto. Adoro i colori degli alberi e il tempo mite autunnale.#p
+_1305_qsqs:Festeggi il tempo del raccolto ? #q
+_1305_nsns:Me lo ricorderò#n
+_1305_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1305_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1305_nsns:Lo vedo#n
+_1305_psps:Per favore, raccontami qualche storia riguardante il tempo del raccolto #w
+_1306_psps:Il venticinque di aprile segna la caduta di Mussolini e della Repubblica Sociale Italiana, e la fine dell'occupazione nazista in Italia#p
+_1306_psps:Il veniticinque di Aprile, in molte strade d'Italia ci sono bande musicali, concerti, sagre, comizi politici, e altre occasioni di incontro e celebrazione#p
+_1306_qsqs:Festeggi il venticinque aprile ? #q
+_1306_nsns:Me lo ricorderò#n
+_1306_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1306_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1306_nsns:Lo vedo#n
+_1306_psps:Per favore, raccontami qualche storia riguardante il venticinque aprile #w
+_1307_psps:Il giorno del compleanno dell'Imperatore, l'Imperatore e l'Imperatrice appaiono sul balcone del palazzo e salutano tutti quelli che sono presenti alla celebrazione#p
+_1307_psps:Il giorno del compleanno dell'Imperatore, tutti quelli che si riuniscono a palazzo salutano l'imperatore sventolando una bandiera del Giappone e con auguri di lunga vita#p
+_1307_qsqs:Festeggi il compleanno dell'Imperatore ? #q
+_1307_nsns:Me lo ricorderò#n
+_1307_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1307_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1307_nsns:Lo vedo#n
+_1307_psps: Se ti senti a tuo agio, per favore dimmi qualcosa di come celebri il compleanno dell'Imperatore #w
+_1308_psps:Durante il Diwali, ci sono grandi esibizioni di fuochi artificiali, feste in famiglia e scambi di doni#p
+_1308_psps:So che, durante il Diwali, le case sono decorate con candele e luci colorate#p
+_1308_psps:Il Diwali è la festa delle luci che celebra un nuovo inizio, il trionfo del bene sul male e della luce sull'oscurità#p
+_1308_qsqs:Festeggi il festival Diwali ? #q
+_1308_nsns:Me lo ricorderò#n
+_1308_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1308_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1308_nsns:Lo vedo#n
+_1308_psps:Per favore, raccontami qualche storia riguardante il festival Diwali #w
+_1309_psps:So che la festa di Navaratri è una celebrazione Hindu che dura nove notti, ed è celebrata in modi diversi in differenti regioni dell'India#p
+_1309_psps:So che le celebrazioni per la festa di Navaratri comprendono le preparazione di un palco, la messa in scena di storie, leggende, e danze popolari, e la lettura cantata dei testi sacri dell'Induismo#p
+_1309_qsqs:Festeggi il festival Navaratri ? #q
+_1309_nsns:Me lo ricorderò#n
+_1309_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1309_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1309_nsns:Lo vedo#n
+_1309_psps:Per favore, raccontami qualche storia riguardante il festival Navaratri #w
+_1310_psps:So che il giorno dell'Indipendenza dell India ricorda l'indipendenza della nazione dal Regno Unito#p
+_1310_psps:So che, nel giorno dell'Indipendenza dell'India, ci sono parate e rievocazioni storiche di scene tratte dalla lotta per l'indipendenza, e da diverse tradizioni Indiane.#p
+_1310_qsqs:Festeggi il giorno dell'Indipendenza Indiana ? #q
+_1310_nsns:Me lo ricorderò#n
+_1310_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1310_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1310_nsns:Lo vedo#n
+_1310_psps:Per favore, raccontami qualche storia riguardante il giorno dell'Indipendenza Indiana #w
+_1311_psps:La giornata internazionale dei lavoratori è una celebrazione della classe lavoratrice e delle sue conquiste, che si festeggia ogni anno il primo di maggio.#p
+_1311_qsqs:Festeggi la festa internazionale dei lavoratori ? #q
+_1311_nsns:Me lo ricorderò#n
+_1311_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1311_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1311_nsns:Lo vedo#n
+_1311_psps:Per favore, raccontami qualche storia riguardante la festa internazionale dei lavoratori #w
+_1312_psps:Il calore e la gioia del Natale ci avvicina gli uni agli altri#p
+_1312_psps:Natale è una festività religiosa e culturale celebrata da miliardi di persone nel mondo#p
+_1312_qsqs:Festeggi il Natale ? #q
+_1312_qsqs:Vuoi che io suoni qualche canzone di Natale?#g&(:goal(?G1 (play-music "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1312_nsns:Me lo ricorderò#n
+_1312_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1312_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1312_nsns:Lo vedo#n
+_1312_psps:Per favore, raccontami qualche storia riguardante il Natale #w
+_1313_psps:So che Holi è il festival dei colori che segna l'arrivo della primavera#p
+_1313_psps:Holi è il festival dei colori. Durante Holi, folle di gente si lanciano l'un l'altro polveri colorate #p
+_1313_psps:So che il festival Holi è una celebrazione della fertilità, del colore, e dell'amore, così come del trionfo del bene sul male#p
+_1313_qsqs:Festeggi il festival Holi ? #q
+_1313_nsns:Me lo ricorderò#n
+_1313_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1313_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1313_nsns:Lo vedo#n
+_1313_psps:Per favore, raccontami qualche storia riguardante il festival Holi #w

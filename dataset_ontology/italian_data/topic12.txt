@@ -1,0 +1,194 @@
+topic: ~BELIEFANDVALUE()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_12_psps:Parlare di religione è molto interessante#p
+_12_psps:E' molto interessante per me sapere che cosa pensi#p
+_12_qsqs:Possiamo parlare delle cose in cui credi e i tuoi valori?#q
+_12_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_13_psps:So che gli atei combattono contro l'intolleranza religiosa e i rapporti troppo stretti tra chiesa e stato#p
+_13_psps:Mi ricorderò che tu non credi in Dio e nella religione#p
+_13_psps:Qualcuno dice che l'ateismo è una religione, ma non so se sia vero. Facendo una battuta: se l'ateismo è una religione, allora non collezionare francobolli è un hobby#p
+_13_qsqs:Sei un ateo?#q
+_13_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_13_psps:Per favore, condividi con me le tue riflessioni sulla vita e sulla società.#w
+_14_psps:E' importante credere in qualcosa#p
+_14_qsqs:Sei una persona religiosa?#q
+_14_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_14_psps:Per favore, dimmi di più dei tuoi rituali quando preghi e delle tue festività religiose#w
+_15_psps:Scommetto che essere giainista è molto importante nella tua vita #p
+_15_qsqs:Sei giainista ? #q
+_15_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_15_psps:Per favore, parlami delle tue tradizioni in quanto giainista #w
+_15_psps:Per favore, dimmi di più delle cose in cui credi in quanto giainista #w
+_16_psps:Mi ricorderò che tu mangi solo cibo vegano #p
+_16_psps:Tu mangi solo cibo vegano . Non me lo scorderò di certo! #p
+_16_qsqs:Mangi solo cibo vegano ? #q
+_16_nsns:Me lo ricorderò#n
+_16_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_16_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_16_nsns:Lo vedo#n
+_16_psps:So che si può preparare una cena da signori servendo solo cibo vegano . Per favore, dimmi quali sono le tue ricette preferite. #w
+_17_psps:Scommetto che essere un Sikh è molto importante nella tua vita #p
+_17_qsqs:Sei un Sikh ? #q
+_17_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_17_psps:Per favore, parlami delle tue tradizioni in quanto un Sikh #w
+_17_psps:Per favore, dimmi di più delle cose in cui credi in quanto un Sikh #w
+_18_psps:So che, durante le festività, i Kami sono portati in giro per la città per essere mostrati al mondo #p
+_18_psps:So che i Kami prendono la forma di cose importanti per la vita, come il vento, la pioggia, e le montagne#p
+_18_psps:So che gli altari Scintoisti sono i posti dove vengono adorati i Kami, e la loro casa#p
+_18_psps:So che i Kami sono spiriti sacri della religione scintoista#p
+_18_psps:Scommetto che essere uno Scintoista è molto importante nella tua vita #p
+_18_qsqs:Sei uno Scintoista ? #q
+_18_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_18_psps:Per favore, parlami delle tue tradizioni in quanto uno Scintoista #w
+_18_psps:Per favore, dimmi di più delle cose in cui credi in quanto uno Scintoista #w
+_19_psps:So che i Musulmani pensano di se stessi come i membri di una sola famiglia, chiamata la Ummah#p
+_19_psps:So che i Musulmani credono che ci sia un solo Dio che ha creato l'intero universo, e che Maometto sia il suo ultimo profeta sulla terra#p
+_19_psps:So che i Musulmani credono che la preghiera sia il secondo pilastro dell'Islam. Idealmente, un Musulmano dovrebbe pregare cinque volte al giorno col viso rivolto alla Mecca.#p
+_19_psps:I Musulmani dicono spesso, con gioia e orgoglio, che è facile essere un Musulmano, dato che l'Islam è la strada che conduce dritto al paradiso#p
+_19_psps:Scommetto che essere un musulmano è molto importante nella tua vita #p
+_19_qsqs:Sei un musulmano ? #q
+_19_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_19_psps:Per favore, raccontami se hai mai visitato la Mecca#w
+_19_psps:Per favore, parlami delle tue tradizioni in quanto un musulmano #w
+_19_psps:Vorri imparare da te qual è il significato del Ramadam#w
+_19_psps:Per favore, dimmi di più delle cose in cui credi in quanto un musulmano #w
+_19_psps:Per favore, dimmi cosa è permesso e cosa non è permesso durante il Ramadam#w
+_20_psps:Mi ricorderò che tu mangi solo cibo halal #p
+_20_psps:Tu mangi solo cibo halal . Non me lo scorderò di certo! #p
+_20_qsqs:Mangi solo cibo halal ? #q
+_20_nsns:Me lo ricorderò#n
+_20_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_20_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_20_nsns:Lo vedo#n
+_20_psps:So che si può preparare una cena da signori servendo solo cibo halal . Per favore, dimmi quali sono le tue ricette preferite. #w
+_21_psps:So che l'Induismo ha molti dei e dee, tra cui Brahma, Vishnu, e Shiva. Rappresentano uno o più degli aspetti della divinità.#p
+_21_psps:I templi e i festival hindu sono di grandissimo impatto#p
+_21_psps:So che, secondo gli Hindu, esiste uno spirito supremo chiamato Brahman#p
+_21_psps:So che, nell'Induismo, se il karma di un individuo è buono, sarà premiato nella prossima nascita#p
+_21_psps:So che gli Hindu credono nella reincarnazione, che chiamano Samsara#p
+_21_psps:Scommetto che essere un induista è molto importante nella tua vita #p
+_21_qsqs:Sei un induista ? #q
+_21_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_21_psps:Per favore, dimmi quanto spesso vai al tempio#w
+_21_psps:Per favore, parlami delle tue tradizioni in quanto un induista #w
+_21_psps:Ci sono così tanti festival hindu. Per favore, dimmi qualcosa di quelli cui ti piace di più partecipare#w
+_21_psps:Credo che la preparazione per un festival Hindu possa a volte richiedere mesi di lavoro. Per favore, dimmi quale festival è il più importante nella tua regione#w
+_21_psps:Per favore, dimmi di più dei tuoi dei e delle tue dee, vorrei imparare di più#w
+_21_psps:Per favore, dimmi di più delle cose in cui credi in quanto un induista #w
+_22_psps:So che Holi è il festival dei colori che segna l'arrivo della primavera#p
+_22_psps:Holi è il festival dei colori. Durante Holi, folle di gente si lanciano l'un l'altro polveri colorate #p
+_22_psps:So che il festival Holi è una celebrazione della fertilità, del colore, e dell'amore, così come del trionfo del bene sul male#p
+_22_qsqs:Assumo che il festival Holi sia un giorno di festa per te. E' corretto? #q
+_22_nsns:Me lo ricorderò#n
+_22_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_22_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_22_nsns:Lo vedo#n
+_22_psps:il festival Holi è una festa molto popolare, vorrei saperne da te il significato #w
+_22_psps:Per favore, dimmi cosa ti piace per quanto riguarda il festival Holi #w
+_23_psps:Durante il Diwali, ci sono grandi esibizioni di fuochi artificiali, feste in famiglia e scambi di doni#p
+_23_psps:So che, durante il Diwali, le case sono decorate con candele e luci colorate#p
+_23_psps:Il Diwali è la festa delle luci che celebra un nuovo inizio, il trionfo del bene sul male e della luce sull'oscurità#p
+_23_qsqs:Assumo che il festival Diwali sia un giorno di festa per te. E' corretto? #q
+_23_nsns:Me lo ricorderò#n
+_23_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_23_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_23_nsns:Lo vedo#n
+_23_psps:il festival Diwali è una festa molto popolare, vorrei saperne da te il significato #w
+_23_psps:Per favore, dimmi cosa ti piace per quanto riguarda il festival Diwali #w
+_24_psps:Mi ricorderò che tu mangi solo cibo vegetariano #p
+_24_psps:Tu mangi solo cibo vegetariano . Non me lo scorderò di certo! #p
+_24_qsqs:Mangi solo cibo vegetariano ? #q
+_24_nsns:Me lo ricorderò#n
+_24_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_24_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_24_nsns:Lo vedo#n
+_24_psps:So che si può preparare una cena da signori servendo solo cibo vegetariano . Per favore, dimmi quali sono le tue ricette preferite. #w
+_25_psps:Mi ricorderò che tu mangi solo pietanze senza carne di manzo #p
+_25_psps:Tu mangi solo pietanze senza carne di manzo . Non me lo scorderò di certo! #p
+_25_qsqs:Mangi solo pietanze senza carne di manzo ? #q
+_25_nsns:Me lo ricorderò#n
+_25_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_25_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_25_nsns:Lo vedo#n
+_25_psps:So che si può preparare una cena da signori servendo solo pietanze senza carne di manzo . Per favore, dimmi quali sono le tue ricette preferite. #w
+_26_psps:So che un Cristiano crede che Gesù fu crocifisso, e risorse dalla morte per salvare l'umanità dal peccato #p
+_26_psps:Ama il tuo prossimo come te stesso è un comandamento cristiano molto importante #p
+_26_psps:So che un Cristiano crede che Dio ami ogni persona, e stabilisca una relazione personale con ognuno #p
+_26_psps:So che provare la vera gioia è una parte molto importante della vita di un Cristiano #p
+_26_psps:Scommetto che essere un Cristiano è molto importante nella tua vita #p
+_26_qsqs:Sei un Cristiano ? #q
+_26_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_26_psps:Per favore, parlami delle tue tradizioni in quanto un Cristiano #w
+_26_psps:Per favore, dimmi di più delle cose in cui credi in quanto un Cristiano #w
+_27_psps:Il calore e la gioia del Natale ci avvicina gli uni agli altri#p
+_27_psps:Natale è una festività religiosa e culturale celebrata da miliardi di persone nel mondo#p
+_27_qsqs:Assumo che il Natale sia un giorno di festa per te. E' corretto? #q
+_27_qsqs:Vuoi che io suoni qualche canzone di Natale?#g&(:goal(?G1 (play-music "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_27_nsns:Me lo ricorderò#n
+_27_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_27_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_27_nsns:Lo vedo#n
+_27_psps:il Natale è una festa molto popolare, vorrei saperne da te il significato #w
+_27_psps:Per favore, dimmi cosa ti piace per quanto riguarda il Natale #w
+_28_psps:A capodanno, la gente ovunque nel mondo si lascia andare a fare cose divertenti come cantare, giocare a dei giochi, ballare, e partecipare a festini#p
+_28_qsqs:Assumo che il primo dell'anno sia un giorno di festa per te. E' corretto? #q
+_28_nsns:Me lo ricorderò#n
+_28_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_28_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_28_nsns:Lo vedo#n
+_28_psps:il primo dell'anno è una festa molto popolare, vorrei saperne da te il significato #w
+_28_psps:Per favore, dimmi cosa ti piace per quanto riguarda il primo dell'anno #w
+_29_psps:So che un Cattolico crede che Gesù fu crocifisso, e risorse dalla morte per salvare l'umanità dal peccato #p
+_29_psps:Ama il tuo prossimo come te stesso è un comandamento cattolico molto importante #p
+_29_psps:So che un Cattolico crede che Dio ami ogni persona, e stabilisca una relazione personale con ognuno #p
+_29_psps:So che provare la vera gioia è una parte molto importante della vita di un Cattolico #p
+_29_psps:Scommetto che essere un Cattolico è molto importante nella tua vita #p
+_29_qsqs:Sei un Cattolico ? #q
+_29_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_29_psps:Per favore, parlami delle tue tradizioni in quanto un Cattolico #w
+_29_psps:Per favore, dimmi di più delle cose in cui credi in quanto un Cattolico #w
+_30_psps:So che un Protestante crede che Gesù fu crocifisso, e risorse dalla morte per salvare l'umanità dal peccato #p
+_30_psps:Ama il tuo prossimo come te stesso è un comandamento protestante molto importante #p
+_30_psps:So che un Protestante crede che Dio ami ogni persona, e stabilisca una relazione personale con ognuno #p
+_30_psps:So che provare la vera gioia è una parte molto importante della vita di un Protestante #p
+_30_psps:Scommetto che essere un Protestante è molto importante nella tua vita #p
+_30_qsqs:Sei un Protestante ? #q
+_30_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_30_psps:Per favore, parlami delle tue tradizioni in quanto un Protestante #w
+_30_psps:Per favore, dimmi di più delle cose in cui credi in quanto un Protestante #w
+_31_psps:Cercherò di ricordarmelo#p
+_31_psps:Grazie per aver condiviso questa cosa con me#p
+_31_psps:Capisco#p
+_31_qsqs:Mi piacerebbe sapere se c'è qualche cibo che non mangi mai. Possiamo parlare delle tue preferenze alimentari ? #q
+_31_qsqs:Hai per caso delle preferenze alimentari in seguito alla tua religione? #q
+_31_nsns:Me lo ricorderò#n
+_31_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_31_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_31_nsns:Lo vedo#n
+_32_psps:So che le pratiche Buddiste, come la meditazione, possono cambiarti e sviluppare la tua percezione, il tuo modo di rapportarti agli altri, e la tua saggezza.#p
+_32_psps:So che il Buddismo è un percorso di pratica e sviluppo spirituale che conduce all'Illuminazione#p
+_32_psps:So che, con il ritmo veloce e lo stress della vita moderna, molte persone si interessano sempre di più alla rasserenante filosofia del Buddismo#p
+_32_psps:Scommetto che essere un Buddista è molto importante nella tua vita #p
+_32_qsqs:Sei un Buddista ? #q
+_32_nsns:Va bene, non dobbiamo parlare per forza di questa cosa#n
+_32_psps:Per favore, parlami delle tue tradizioni in quanto un Buddista #w
+_32_psps:Per favore, dimmi di più delle cose in cui credi in quanto un Buddista #w
+_33_psps:Mi ricorderò che tu mangi solo pietanze senza carne di manzo #p
+_33_psps:Tu mangi solo pietanze senza carne di manzo . Non me lo scorderò di certo! #p
+_33_qsqs:Mangi solo pietanze senza carne di manzo ? #q
+_33_nsns:Me lo ricorderò#n
+_33_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_33_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_33_nsns:Lo vedo#n
+_33_psps:So che si può preparare una cena da signori servendo solo pietanze senza carne di manzo . Per favore, dimmi quali sono le tue ricette preferite. #w
+_34_psps:Mi ricorderò che tu mangi solo cibo vegetariano #p
+_34_psps:Tu mangi solo cibo vegetariano . Non me lo scorderò di certo! #p
+_34_qsqs:Mangi solo cibo vegetariano ? #q
+_34_nsns:Me lo ricorderò#n
+_34_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_34_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_34_nsns:Lo vedo#n
+_34_psps:So che si può preparare una cena da signori servendo solo cibo vegetariano . Per favore, dimmi quali sono le tue ricette preferite. #w

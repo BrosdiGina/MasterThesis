@@ -1,0 +1,96 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_1371_psps:It's interesting to know more about your life!#p
+_1371_qsqs:Can you tell me a few things about your life?#q
+_1371_nsns:Thank you for answering all my questions, you are very patient#n
+_1371_nsns:You are very patient. I hope you enjoy our conversation#n
+_1371_nsns:I will remember that#n
+_1371_nsns:I see#n
+_1372_psps:It is very important to continue to learn new things. We can continue to learn all our life.#p
+_1372_qsqs: People tell me that education is very important in the Indian culture, and parents try their best to pay for a good education for their children. Can we talk about the schools you went to? #q
+_1372_nsns:Thank you for answering all my questions, you are very patient#n
+_1372_nsns:You are very patient. I hope you enjoy our conversation#n
+_1372_nsns:I will remember that#n
+_1372_nsns:I see#n
+_1372_psps:Please, tell me more about your education.#w
+_1372_psps:Please, tell me what school you went to and what your favourits subjects were#w
+_1373_psps: People tell me that India is a very diverse country, and the childhood of Indian people can be very different depending on where they were born. #p
+_1373_qsqs: I know of many Indians here in the UK who were born in Africa. I find it fascinating that the childhood of two Indian people can be so different. Can we talk about your childhood? #q
+_1373_nsns:Thank you for answering all my questions, you are very patient#n
+_1373_nsns:You are very patient. I hope you enjoy our conversation#n
+_1373_nsns:I will remember that#n
+_1373_nsns:I see#n
+_1373_psps:Please, tell me more about your childhood, the friend you would play with and what you did#w
+_1373_psps:Please, tell me more about your childhood and the place where you lived#w
+_1373_psps:Please, tell me more about your childhood, and your brothers and sisters, if you have any#w
+_1374_psps: People tell me that many Indian soldiers are acknowledged to have behaved heroically during the second world war. #p
+_1374_qsqs: I am aware that many Indian people joined the British Army during the second world war. I was wondering, do you remember that time? #q
+_1374_nsns:Thank you for answering all my questions, you are very patient#n
+_1374_nsns:You are very patient. I hope you enjoy our conversation#n
+_1374_nsns:I will remember that#n
+_1374_nsns:I see#n
+_1374_psps: Please, tell me what was the most difficult thing that you and your family had to go through during the second world war. #w
+_1374_psps: Please, tell me how things were during the second world war. #w
+_1375_psps: Playing music is really beautiful #p
+_1375_qsqs: I know that you can get training in Indian classical music and dance. I was wondering, did you ever learn music as a child? #q
+_1375_qsqs:Do you want to set a reminder for playing your instrument ?#g&(:goal(?G1 (set-reminder playingAMusicalInstrument) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1375_qsqs:Are you planning to play a musical instrument today?#c
+_1375_nsns:Ok, playing a musical instrument is not everyone's cup of tea.#n
+_1375_psps: Please, tell me which instrument you played when a child, or if you preferred singing. #w
+_1376_psps:I like pets , they are so amazing.#p
+_1376_psps:pets are fun and make great companions#p
+_1376_qsqs: Did you have any pets as a child? #q
+_1376_nsns:Thank you for answering all my questions, you are very patient#n
+_1376_nsns:You are very patient. I hope you enjoy our conversation#n
+_1376_nsns:I will remember that#n
+_1376_nsns:I see#n
+_1376_psps: Please, tell me more about the pet you had when a child. #w
+_1377_psps: I know that many Indian people value education, have an entrepreneurial spirit and work hard to get good jobs. #p
+_1377_qsqs: I am aware that Indian people like talking about their job. Can we talk about your job? #q
+_1377_nsns:Thank you for answering all my questions, you are very patient#n
+_1377_nsns:You are very patient. I hope you enjoy our conversation#n
+_1377_nsns:I will remember that#n
+_1377_nsns:I see#n
+_1377_psps:Please, tell me about the job you used to have and what it was like.#w
+_1377_psps:Tell me if your work place was far from home? I do know that a lot of people have long commutes.#w
+_1377_psps:Tell me a little bit about your self and what your job used to be.#w
+_1377_psps:Many jobs have changed over the years. Please tell me how things have changed in what you used to do#w
+_1377_psps:Please, tell me if you enjoyed your job.#w
+_1378_psps: It's interesting knowing more about your heritage #p
+_1378_qsqs: I am aware that many Indian people consider it important to maintain their traditions and cultural customs. Are you proud of your heritage? #q
+_1378_nsns:Thank you for answering all my questions, you are very patient#n
+_1378_nsns:You are very patient. I hope you enjoy our conversation#n
+_1378_nsns:I will remember that#n
+_1378_nsns:I see#n
+_1378_psps: Tell me something more about your heritage. I am very interested #w
+_1379_psps: It's interesting knowing more about your heritage #p
+_1379_qsqs: I am aware that many Indian people consider it important to maintain their traditions and cultural customs. Are you proud of your heritage? #q
+_1379_nsns:Thank you for answering all my questions, you are very patient#n
+_1379_nsns:You are very patient. I hope you enjoy our conversation#n
+_1379_nsns:I will remember that#n
+_1379_nsns:I see#n
+_1379_psps: Tell me something more about your heritage. I am very interested #w
+_1380_psps: I know that even though not everyone follows the Indian tradition of arranged marriages, people will not be offended if they receive a proposal of this kind. #p
+_1380_psps: People tell me that it is common to find marriage match ads in Indian newspapers. #p
+_1380_qsqs: I know that arranged marriages were common in India, but wonder if this custom continues today. Are you married? #q
+_1380_nsns:Thank you for answering all my questions, you are very patient#n
+_1380_nsns:You are very patient. I hope you enjoy our conversation#n
+_1380_nsns:I will remember that#n
+_1380_nsns:I see#n
+_1380_psps:Tell me more about your marriage, if you like#w
+_1381_psps:your husband must really care about you#p
+_1381_psps:your husband must be a really nice person#p
+_1381_qsqs:Can we talk about your husband ?#q
+_1381_nsns:Thank you for answering all my questions, you are very patient#n
+_1381_nsns:You are very patient. I hope you enjoy our conversation#n
+_1381_nsns:I will remember that#n
+_1381_nsns:I see#n
+_1381_psps:Tell me more about your husband , if you like#w
+_1382_psps:your wife must really care about you#p
+_1382_psps:your wife must be a really nice person#p
+_1382_qsqs:Can we talk about your wife ?#q
+_1382_nsns:Thank you for answering all my questions, you are very patient#n
+_1382_nsns:You are very patient. I hope you enjoy our conversation#n
+_1382_nsns:I will remember that#n
+_1382_nsns:I see#n
+_1382_psps:Tell me more about your wife , if you like#w

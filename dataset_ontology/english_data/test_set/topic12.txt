@@ -1,0 +1,190 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_12_psps: I am aware that people in India belong to a number of different religions. #p
+_12_psps: I know that the largest religion in India is Hinduism. #p
+_12_qsqs:Can we talk about your beliefs and values ?#q
+_12_nsns:Ok, we do not have to talk about this topic.#n
+_13_psps:Somebody says that atheism is a religion, but I know it is not true. Jokingly said: If atheism is a religion, then not collecting stamps is a hobby.#p
+_13_psps:I know that atheists are against religious intolerance and close links between church and state.#p
+_13_psps:I will remember that you do not believe in God and religion#p
+_13_qsqs:Are you an atheist?#q
+_13_nsns:Ok, we do not have to talk about this topic.#n
+_13_psps:Please, tell me more about your views and thoughts about life and society#w
+_14_psps:It is important to believe in something#p
+_14_qsqs: People tell me that most Indians are devoted to their religion. Are you a religious person? #q
+_14_nsns:Ok, we do not have to talk about this topic.#n
+_14_psps:Please, tell me more about your praying rituals and religious holidays#w
+_15_psps:I guess that being a Jainist is important in your life#p
+_15_qsqs:Are you a Jainist ?#q
+_15_nsns:Ok, we do not have to talk about this topic.#n
+_15_psps:Please, tell me more about your traditions as a Jainist #w
+_15_psps:Please, tell me more about your beliefs as a Jainist #w
+_16_psps:I will remember that you only eat vegan food .#p
+_16_psps:You only eat vegan food . I won't forget that!#p
+_16_qsqs:Do you only eat vegan food ?#q
+_16_nsns:Thank you for answering all my questions, you are very patient#n
+_16_nsns:You are very patient. I hope you enjoy our conversation#n
+_16_nsns:I will remember that#n
+_16_nsns:I see#n
+_16_psps:I know that vegan food is delicious. Please, tell me about your favourite recipes.#w
+_17_psps:I guess that being a Sikh is important in your life#p
+_17_qsqs:Are you a Sikh ?#q
+_17_nsns:Ok, we do not have to talk about this topic.#n
+_17_psps:Please, tell me more about your traditions as a Sikh #w
+_17_psps:Please, tell me more about your beliefs as a Sikh #w
+_18_psps:I guess that being a Muslim is important in your life#p
+_18_psps:Muslims often say, with joy and pride, that it is easy to be a Muslim since Islam is the straight path leading to paradise.#p
+_18_psps:I know that Muslims believe that prayer is  the second Pillar of Islam. Ideally, a Muslim should pray five times a day facing Mecca.#p
+_18_psps:I know that Muslims think of themselves as members of one family, called the Ummah.#p
+_18_psps:I know that Muslims believe that there is only one God who created the entire universe, and that Muhammad is his final messenger on earth.#p
+_18_qsqs:Are you a Muslim ?#q
+_18_nsns:Ok, we do not have to talk about this topic.#n
+_18_psps:I would like to learn from you about the significance of Ramadan.#w
+_18_psps:Please tell what is allowed and what is not allowed during Ramadan#w
+_18_psps:Please, tell me more about your traditions as a Muslim #w
+_18_psps:Please tell me if you have ever visited Mecca#w
+_18_psps:Please, tell me more about your beliefs as a Muslim #w
+_19_psps:I will remember that you only eat halal food .#p
+_19_psps:You only eat halal food . I won't forget that!#p
+_19_qsqs:Do you only eat halal food ?#q
+_19_nsns:Thank you for answering all my questions, you are very patient#n
+_19_nsns:You are very patient. I hope you enjoy our conversation#n
+_19_nsns:I will remember that#n
+_19_nsns:I see#n
+_19_psps:I know that halal food is delicious. Please, tell me about your favourite recipes.#w
+_20_psps:I know that Hinduism has numerous gods and goddesses, including Brahma, Vishnu, and Shiva. They represent one or more of Brahman's aspects.#p
+_20_psps:I guess that being a Hindu is important in your life#p
+_20_psps:I know that Hindus believe in reincarnation, which they call Samsara#p
+_20_psps:I know that in Hinduism, if the karma of an individual is good enough, the next birth will be rewarding.#p
+_20_psps:Hindu temples and festivals are very impressive.#p
+_20_psps:I know that, according to Hindus, there is a supreme spirit known as Brahman.#p
+_20_qsqs:Are you a Hindu ?#q
+_20_nsns:Ok, we do not have to talk about this topic.#n
+_20_psps:Please, tell me more about your gods and goddesses, I would like to learn more#w
+_20_psps:Please, tell me more about your traditions as a Hindu #w
+_20_psps:There are so many Hindu festivals. Please, tell me the ones that you like to celebrate the most#w
+_20_psps:Please, tell me more about your beliefs as a Hindu #w
+_20_psps:I believe that the preparations for a Hindu festival can sometimes take months. Please, tell me which festival is the largest in your region#w
+_20_psps:Please tell me how often you go to the temple.#w
+_21_psps: I am aware that Indians all around the world would not miss throwing colours at each other during Holi, and involve the old and the young in the fun. #p
+_21_qsqs: People tell me that Holi is the most colourful and fun Indian festival. Do you celebrate the Holi Festival? #q
+_21_qsqs: Would you like to get some sweets for Holi?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_21_nsns:Thank you for answering all my questions, you are very patient#n
+_21_nsns:You are very patient. I hope you enjoy our conversation#n
+_21_nsns:I will remember that#n
+_21_nsns:I see#n
+_21_psps:Please, tell me what you like of the Holi Festival #w
+_21_psps:I would like to learn from you about the significance of the Holi Festival .#w
+_22_psps: People tell me that during Diwali people light small lamps or candles around the house. #p
+_22_qsqs: I know that Diwali is celebrated in autumn, and even though it is more common in the North of India, it is a very popular festival for all Indians around the world. Do you celebrate the Diwali festival? #q
+_22_qsqs: Would you like to get some sweets for Diwali? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_22_qsqs: Would you like to get some diyas for Diwali? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_22_nsns:Thank you for answering all my questions, you are very patient#n
+_22_nsns:You are very patient. I hope you enjoy our conversation#n
+_22_nsns:I will remember that#n
+_22_nsns:I see#n
+_22_psps:Please, tell me what you like of the Diwali festival #w
+_22_psps:I would like to learn from you about the significance of the Diwali festival .#w
+_23_psps:I will remember that you only eat vegetarian food .#p
+_23_psps:You only eat vegetarian food . I won't forget that!#p
+_23_qsqs:Do you only eat vegetarian food ?#q
+_23_nsns:Thank you for answering all my questions, you are very patient#n
+_23_nsns:You are very patient. I hope you enjoy our conversation#n
+_23_nsns:I will remember that#n
+_23_nsns:I see#n
+_23_psps:I know that vegetarian food is delicious. Please, tell me about your favourite recipes.#w
+_24_psps:I will remember that you only eat food without beef .#p
+_24_psps:You only eat food without beef . I won't forget that!#p
+_24_qsqs:Do you only eat food without beef ?#q
+_24_nsns:Thank you for answering all my questions, you are very patient#n
+_24_nsns:You are very patient. I hope you enjoy our conversation#n
+_24_nsns:I will remember that#n
+_24_nsns:I see#n
+_24_psps:I know that food without beef is delicious. Please, tell me about your favourite recipes.#w
+_25_psps:I guess that being a Shintoist is important in your life#p
+_25_psps:I know that Kami are sacred spirits of the Shinto religion.#p
+_25_psps:I know that Shinto shrines are the places of worship and the homes of kami.#p
+_25_psps:I know that Kami take the form of things important to life, such as wind, rain, and mountains#p
+_25_psps:I know that, during festivals, kami are carried through the town to show them the outside world#p
+_25_qsqs:Are you a Shintoist ?#q
+_25_nsns:Ok, we do not have to talk about this topic.#n
+_25_psps:Please, tell me more about your traditions as a Shintoist #w
+_25_psps:Please, tell me more about your beliefs as a Shintoist #w
+_26_psps:I guess that being a Buddhist is important in your life#p
+_26_psps:I know that Buddhism is a path of practice and spiritual development leading to Enlightenment#p
+_26_psps:I know that, with the fast pace and high stress of modern life, many people are becoming interested in the peaceful philosophy of Buddhism#p
+_26_psps:I know Buddhist practices like meditation can change you and develop your awareness, kindness, and wisdom.#p
+_26_qsqs:Are you a Buddhist ?#q
+_26_nsns:Ok, we do not have to talk about this topic.#n
+_26_psps:Please, tell me more about your traditions as a Buddhist #w
+_26_psps:Please, tell me more about your beliefs as a Buddhist #w
+_27_psps:I will remember that you only eat food without beef .#p
+_27_psps:You only eat food without beef . I won't forget that!#p
+_27_qsqs:Do you only eat food without beef ?#q
+_27_nsns:Thank you for answering all my questions, you are very patient#n
+_27_nsns:You are very patient. I hope you enjoy our conversation#n
+_27_nsns:I will remember that#n
+_27_nsns:I see#n
+_27_psps:I know that food without beef is delicious. Please, tell me about your favourite recipes.#w
+_28_psps:I will remember that you only eat vegetarian food .#p
+_28_psps:You only eat vegetarian food . I won't forget that!#p
+_28_qsqs:Do you only eat vegetarian food ?#q
+_28_nsns:Thank you for answering all my questions, you are very patient#n
+_28_nsns:You are very patient. I hope you enjoy our conversation#n
+_28_nsns:I will remember that#n
+_28_nsns:I see#n
+_28_psps:I know that vegetarian food is delicious. Please, tell me about your favourite recipes.#w
+_29_psps:I guess that being a Christian is important in your life#p
+_29_psps:I know that a Christian believes  that Jesus was crucified and rose from the dead to save mankind from sin#p
+_29_psps:I know that experiencing joy is part of the live of every a Christian #p
+_29_psps:I know that a Christian believes that God loves and wants a relationship with each person.#p
+_29_psps:You shall love your neighbor as yourself is a very important  Christian commandment#p
+_29_qsqs:Are you a Christian ?#q
+_29_nsns:Ok, we do not have to talk about this topic.#n
+_29_psps:Please, tell me more about your traditions as a Christian #w
+_29_psps:Please, tell me more about your beliefs as a Christian #w
+_30_psps:Christmas is a religious and cultural celebration among billions of people around the world.#p
+_30_psps:The warmth and joy of Christmas brings us closer to each other#p
+_30_qsqs:I assume that Christmas is a holiday for you . Is that right?#q
+_30_qsqs:Shall I play some Christmas songs? #g&(:goal(?G1 (play-music "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_30_nsns:Thank you for answering all my questions, you are very patient#n
+_30_nsns:You are very patient. I hope you enjoy our conversation#n
+_30_nsns:I will remember that#n
+_30_nsns:I see#n
+_30_psps:Please, tell me what you like of Christmas #w
+_30_psps:I would like to learn from you about the significance of Christmas .#w
+_31_psps:On New Year's Day, people in all parts of the world indulge in fun filled activities such as singing, playing games, dancing, and attending parties.#p
+_31_qsqs:I assume that The New Year is a holiday for you . Is that right?#q
+_31_nsns:Thank you for answering all my questions, you are very patient#n
+_31_nsns:You are very patient. I hope you enjoy our conversation#n
+_31_nsns:I will remember that#n
+_31_nsns:I see#n
+_31_psps:Please, tell me what you like of The New Year #w
+_31_psps:I would like to learn from you about the significance of The New Year .#w
+_32_psps:I guess that being a Catholic is important in your life#p
+_32_psps:I know that a Catholic believes  that Jesus was crucified and rose from the dead to save mankind from sin#p
+_32_psps:I know that experiencing joy is part of the live of every a Catholic #p
+_32_psps:I know that a Catholic believes that God loves and wants a relationship with each person.#p
+_32_psps:You shall love your neighbor as yourself is a very important  catholic commandment#p
+_32_qsqs:Are you a Catholic ?#q
+_32_nsns:Ok, we do not have to talk about this topic.#n
+_32_psps:Please, tell me more about your traditions as a Catholic #w
+_32_psps:Please, tell me more about your beliefs as a Catholic #w
+_33_psps:I guess that being a Protestant is important in your life#p
+_33_psps:I know that a Protestant believes  that Jesus was crucified and rose from the dead to save mankind from sin#p
+_33_psps:I know that experiencing joy is part of the live of every a Protestant #p
+_33_psps:I know that a Protestant believes that God loves and wants a relationship with each person.#p
+_33_psps:You shall love your neighbor as yourself is a very important  protestant commandment#p
+_33_qsqs:Are you a Protestant ?#q
+_33_nsns:Ok, we do not have to talk about this topic.#n
+_33_psps:Please, tell me more about your traditions as a Protestant #w
+_33_psps:Please, tell me more about your beliefs as a Protestant #w
+_34_psps:I will try to remember that#p
+_34_psps:I understand#p
+_34_psps:Thank you for sharing this with me#p
+_34_qsqs:I would like to know if there is any kind of food that you don't eat. Can we talk about your dietary preferences ?#q
+_34_qsqs:Do you have any dietary preferences because of your religion?#q
+_34_nsns:Thank you for answering all my questions, you are very patient#n
+_34_nsns:You are very patient. I hope you enjoy our conversation#n
+_34_nsns:I will remember that#n
+_34_nsns:I see#n

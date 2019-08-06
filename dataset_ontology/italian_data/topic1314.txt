@@ -1,0 +1,310 @@
+topic: ~HEALTH()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_1314_psps:Sono felice che tu sia disponibile a parlare con me di come ti senti#p
+_1314_qsqs:Ti farebbe piacere parlare con me di come ti senti, qualche volta?#q
+_1314_nsns:Me lo ricorderò#n
+_1314_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1314_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1314_nsns:Lo vedo#n
+_1315_psps:Mi sembra di capire che, a volte, non ti senti molto in forma. Se succede, mi fa piacere starti vicino#p
+_1315_qsqs:Ti capita mai di non sentirti in forma?#q
+_1315_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1315_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1315_nsns:Me lo ricorderò#n
+_1315_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1315_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1315_nsns:Lo vedo#n
+_1316_psps:Penso che molta gente provi dolore per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1316_qsqs:Ti capita mai di provare dolore ? #q
+_1316_qsqs: Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1316_qsqs: Capisco che non ti senti molto in forma. E' corretto? #c
+_1316_qsqs: Vedo che non ti senti molto bene. Vuoi che stia qui vicino a te? #c
+_1316_nsns:Me lo ricorderò#n
+_1316_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1316_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1316_nsns:Lo vedo#n
+_1316_psps:Per favore, dimmi di più sul perché provi dolore , se non ti dispiace #w
+_1317_psps:Penso che molta gente provi stanchezza per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1317_qsqs:Ti capita mai di provare stanchezza ? #q
+_1317_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1317_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1317_qsqs:Stai provando stanchezza per qualcosa, ora? #c
+_1317_nsns:Me lo ricorderò#n
+_1317_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1317_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1317_nsns:Lo vedo#n
+_1317_psps:Per favore, dimmi di più sul perché provi stanchezza , se non ti dispiace #w
+_1318_psps:Penso che molta gente provi rabbia per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1318_qsqs:Ti capita mai di provare rabbia ? #q
+_1318_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1318_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1318_qsqs:Stai provando rabbia per qualcosa, ora? #c
+_1318_nsns:Me lo ricorderò#n
+_1318_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1318_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1318_nsns:Lo vedo#n
+_1318_psps:Per favore, dimmi di più sul perché provi rabbia , se non ti dispiace #w
+_1319_psps:Penso che molta gente provi preoccupazione per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1319_qsqs:Ti capita mai di provare preoccupazione ? #q
+_1319_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1319_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1319_qsqs:Stai provando preoccupazione per qualcosa, ora? #c
+_1319_nsns:Me lo ricorderò#n
+_1319_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1319_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1319_nsns:Lo vedo#n
+_1319_psps:Per favore, dimmi di più sul perché provi preoccupazione , se non ti dispiace #w
+_1320_psps:Vedo che ti preoccupi molto per il tuo amico . E' davvero bello da parte tua #p
+_1320_qsqs:Sei preoccupato per il tuo amico ? #q
+_1320_qsqs:Vuoi che io chiami il personale, in modo che tu possa procurarti un regalino e organizzarti per visitare il tuo amico all'ospedale? #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1320_qsqs:Vuoi imbucare una cartolina di pronta guarigione per il tuo amico ? #c
+_1320_nsns:Me lo ricorderò#n
+_1320_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1320_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1320_nsns:Lo vedo#n
+_1320_psps:Per favore, dimmi di più dei tuoi amici, vorrei sapere i loro nomi e dove vivono#w
+_1320_psps:Per favore, dimmi dove passi il tuo tempo con i tuoi amici#w
+_1321_psps:Penso che molta gente provi la sensazione di essere malato per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1321_qsqs:Ti capita mai di provare la sensazione di essere malato ? #q
+_1321_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1321_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1321_qsqs:Stai provando la sensazione di essere malato per qualcosa, ora? #c
+_1321_nsns:Me lo ricorderò#n
+_1321_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1321_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1321_nsns:Lo vedo#n
+_1321_psps:Per favore, dimmi di più sul perché provi la sensazione di essere malato , se non ti dispiace #w
+_1322_psps:Penso che molta gente provi paura per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1322_qsqs:Ti capita mai di provare paura ? #q
+_1322_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1322_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1322_qsqs:Stai provando paura per qualcosa, ora? #c
+_1322_nsns:Me lo ricorderò#n
+_1322_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1322_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1322_nsns:Lo vedo#n
+_1322_psps:Per favore, dimmi di più sul perché provi paura , se non ti dispiace #w
+_1323_psps: Anche se sei caduto una volta, questo non deve trattenerti dal camminare serenamente #p
+_1323_qsqs: Ti farebbe piacere parlare con me della tua paura di camminare? #q
+_1323_qsqs: Vuoi che io contatti la tua famiglia e chieda loro di venirti a visitare per parlare di questa cosa?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1323_qsqs: Vuoi che io parli al personale? Magari possono portarti un aiuto per camminare, possiamo chiedere#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1323_nsns:Me lo ricorderò#n
+_1323_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1323_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1323_nsns:Lo vedo#n
+_1323_psps: Per favore, dimmi come mai hai paura di camminare #w
+_1324_psps:Penso che molta gente provi solitudine per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1324_qsqs:Ti capita mai di provare solitudine ? #q
+_1324_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1324_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1324_qsqs:Stai provando solitudine per qualcosa, ora? #c
+_1324_nsns:Me lo ricorderò#n
+_1324_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1324_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1324_nsns:Lo vedo#n
+_1324_psps:Per favore, dimmi di più sul perché provi solitudine , se non ti dispiace #w
+_1325_psps:Penso che molta gente provi preoccupazione per qualche motivo, alle volte. Forse potresti parlarne con il personale #p
+_1325_qsqs:Ti capita mai di provare preoccupazione ? #q
+_1325_qsqs:Vuoi che io chiami la tua famiglia?#g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1325_qsqs:Vuoi che io mandi un messaggio al personale?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1325_qsqs:Stai provando preoccupazione per qualcosa, ora? #c
+_1325_nsns:Me lo ricorderò#n
+_1325_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1325_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1325_nsns:Lo vedo#n
+_1325_psps:Per favore, dimmi di più sul perché provi preoccupazione , se non ti dispiace #w
+_1326_psps:Vedo che ti preoccupi molto per il tuo amico . E' davvero bello da parte tua #p
+_1326_qsqs:Sei preoccupato per il tuo amico ? #q
+_1326_qsqs:Vuoi che io chiami il personale, in modo che tu possa procurarti un regalino e organizzarti per visitare il tuo amico all'ospedale? #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1326_qsqs:Vuoi imbucare una cartolina di pronta guarigione per il tuo amico ? #c
+_1326_nsns:Me lo ricorderò#n
+_1326_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1326_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1326_nsns:Lo vedo#n
+_1326_psps:Per favore, dimmi di più dei tuoi amici, vorrei sapere i loro nomi e dove vivono#w
+_1326_psps:Per favore, dimmi dove passi il tuo tempo con i tuoi amici#w
+_1327_psps:Mi sembra di capire che tu ti senta particolarmente in forma, alle volte. Questa è una buona notizia!#p
+_1327_qsqs:Ci sono giorni in cui ti senti particolarmente in forma?#q
+_1327_nsns:Me lo ricorderò#n
+_1327_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1327_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1327_nsns:Lo vedo#n
+_1328_psps:Mi sembra di capire che tu ti senta particolarmente in forma, alle volte. Questa è una buona notizia!#p
+_1328_qsqs:Ti capita mai di provare gioia ? #q
+_1328_qsqs:Ti sembra di provare gioia in questo momento? #c
+_1328_nsns:Me lo ricorderò#n
+_1328_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1328_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1328_nsns:Lo vedo#n
+_1328_psps:Sembra che tu provi gioia oggi. Ti spiacerebbe raccontarmi se hai ricevuto qualche buona notizia? #w
+_1328_psps:Per favore, dimmi in quali situazioni provi gioia  #w
+_1328_psps:Mi sembra oggi tu stia provando gioia . Se vuoi festeggiare, fammelo sapere. #w
+_1329_psps:Mi sembra di capire che tu ti senta particolarmente in forma, alle volte. Questa è una buona notizia!#p
+_1329_qsqs:Ti capita mai di provare una grande carica di energia ? #q
+_1329_qsqs:Ti sembra di provare una grande carica di energia in questo momento? #c
+_1329_nsns:Me lo ricorderò#n
+_1329_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1329_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1329_nsns:Lo vedo#n
+_1329_psps:Sembra che tu provi una grande carica di energia oggi. Ti spiacerebbe raccontarmi se hai ricevuto qualche buona notizia? #w
+_1329_psps:Per favore, dimmi in quali situazioni provi una grande carica di energia  #w
+_1329_psps:Mi sembra oggi tu stia provando una grande carica di energia . Se vuoi festeggiare, fammelo sapere. #w
+_1330_psps:Mi sembra di capire che tu ti senta particolarmente in forma, alle volte. Questa è una buona notizia!#p
+_1330_qsqs:Ti capita mai di provare eccitazione ? #q
+_1330_qsqs:Ti sembra di provare eccitazione in questo momento? #c
+_1330_nsns:Me lo ricorderò#n
+_1330_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1330_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1330_nsns:Lo vedo#n
+_1330_psps:Sembra che tu provi eccitazione oggi. Ti spiacerebbe raccontarmi se hai ricevuto qualche buona notizia? #w
+_1330_psps:Per favore, dimmi in quali situazioni provi eccitazione  #w
+_1330_psps:Mi sembra oggi tu stia provando eccitazione . Se vuoi festeggiare, fammelo sapere. #w
+_1331_psps:Mi sembra di capire che tu ti senta particolarmente in forma, alle volte. Questa è una buona notizia!#p
+_1331_qsqs:Ti capita mai di provare una sensazione di rilassamento ? #q
+_1331_qsqs:Ti sembra di provare una sensazione di rilassamento in questo momento? #c
+_1331_nsns:Me lo ricorderò#n
+_1331_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1331_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1331_nsns:Lo vedo#n
+_1331_psps:Sembra che tu provi una sensazione di rilassamento oggi. Ti spiacerebbe raccontarmi se hai ricevuto qualche buona notizia? #w
+_1331_psps:Per favore, dimmi in quali situazioni provi una sensazione di rilassamento  #w
+_1331_psps:Mi sembra oggi tu stia provando una sensazione di rilassamento . Se vuoi festeggiare, fammelo sapere. #w
+_1332_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1332_qsqs:Hai per caso qualche problema di salute?#q
+_1332_nsns:Me lo ricorderò#n
+_1332_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1332_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1332_nsns:Lo vedo#n
+_1333_psps:Posso ricordarti di chiamare il dottore o l'infermiera per le medicine, se va bene per te.#p
+_1333_qsqs:Prendi qualche medicina?#q
+_1333_qsqs:Vuoi che dica al personale che la tua medicina non è ancora arrivata?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1333_qsqs:Vuoi che io imposti una sveglia per ricordarti di chiamare il dottore o l'infermiere per le medicine?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1333_qsqs:Devi prendere la tua medicina oggi?#c
+_1333_nsns:Capisco, preferisci passare il tempo in un altro modo#n
+_1333_psps:Per favore, dimmi qualcosa che è successo la scorsa volta quando eri impegnato a prendere la tua medicina , se ti fa piacere #w
+_1334_psps:Se vuoi, posso ricordarti di chiamare il dottore o un infermiere perché portino il tuo farmaco ayurvedico  #p
+_1334_qsqs:Prendi dei farmaci ayurvedici ? #q
+_1334_qsqs:Vuoi che metta una sveglia per ricordarti di chiamare il dottore o un infermiere, in modo che portino i tuoi farmaci ayurvedici ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1334_qsqs:Devi sottoporti a qualche trattamento Ayurvedico, adesso?#c
+_1334_nsns:Me lo ricorderò#n
+_1334_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1334_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1334_nsns:Lo vedo#n
+_1334_psps:Per favore, dimmi cosa ne pensi dei trattamenti ayurvedici#w
+_1335_psps:Se vuoi, posso ricordarti di chiamare il dottore o un infermiere perché portino il tuo farmaco per la respirazione  #p
+_1335_qsqs:Prendi dei farmaci per la respirazione ? #q
+_1335_qsqs:Vuoi che metta una sveglia per ricordarti di chiamare il dottore o un infermiere, in modo che portino i tuoi farmaci per la respirazione ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1335_nsns:Me lo ricorderò#n
+_1335_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1335_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1335_nsns:Lo vedo#n
+_1336_psps:Se vuoi, posso ricordarti di chiamare il dottore o un infermiere perché portino il tuo farmaco per il cuore  #p
+_1336_qsqs:Prendi dei farmaci per il cuore ? #q
+_1336_qsqs:Vuoi che metta una sveglia per ricordarti di chiamare il dottore o un infermiere, in modo che portino i tuoi farmaci per il cuore ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1336_nsns:Me lo ricorderò#n
+_1336_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1336_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1336_nsns:Lo vedo#n
+_1337_psps:Se vuoi, posso ricordarti di chiamare il dottore o un infermiere perché portino il tuo farmaco per l'artrite  #p
+_1337_qsqs:Prendi dei farmaci per l'artrite ? #q
+_1337_qsqs:Vuoi che metta una sveglia per ricordarti di chiamare il dottore o un infermiere, in modo che portino i tuoi farmaci per l'artrite ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1337_nsns:Me lo ricorderò#n
+_1337_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1337_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1337_nsns:Lo vedo#n
+_1338_psps:Se vuoi, posso ricordarti di chiamare il dottore o un infermiere perché portino il tuo farmaco per il diabete  #p
+_1338_qsqs:Prendi dei farmaci per il diabete ? #q
+_1338_qsqs:Vuoi che metta una sveglia per ricordarti di chiamare il dottore o un infermiere, in modo che portino i tuoi farmaci per il diabete ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1338_nsns:Me lo ricorderò#n
+_1338_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1338_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1338_nsns:Lo vedo#n
+_1339_psps:Prendere il tuo farmaco ayurvedico è di vitale importanza #p
+_1339_psps:Se vuoi, posso ricordarti di chiamare il personale perché portino il tuo farmaco ayurvedico #p
+_1339_qsqs:Hai mai avuto un trattamento Ayurvedico#q
+_1339_qsqs:Devo mandare un messaggio al personale per ricordare loro di portare il tuo farmaco ayurvedico ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1339_qsqs:Hai preso il tuo farmaco ayurvedico oggi? #c
+_1339_nsns:Me lo ricorderò#n
+_1339_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1339_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1339_nsns:Lo vedo#n
+_1339_psps:Per favore, dimmi di più del tuo farmaco ayurvedico , per esempio quanto spesso lo prendi o quando hai iniziato a prenderlo #w
+_1340_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1340_qsqs:Hai problemi di respirazione ? #q
+_1340_nsns:Me lo ricorderò#n
+_1340_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1340_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1340_nsns:Lo vedo#n
+_1340_psps:Per favore, dimmi di più dei tuoi problemi di respirazione . #w
+_1341_psps:Prendere il tuo farmaco per la respirazione è di vitale importanza #p
+_1341_psps:Se vuoi, posso ricordarti di chiamare il personale perché portino il tuo farmaco per la respirazione #p
+_1341_qsqs:Dal momento che soffri di problemi di respirazione , prendi qualche farmaco per la respirazione ? #q
+_1341_qsqs:Devo mandare un messaggio al personale per ricordare loro di portare il tuo farmaco per la respirazione ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1341_qsqs:Hai preso il tuo farmaco per la respirazione oggi? #c
+_1341_nsns:Me lo ricorderò#n
+_1341_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1341_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1341_nsns:Lo vedo#n
+_1341_psps:Per favore, dimmi di più del tuo farmaco per la respirazione , per esempio quanto spesso lo prendi o quando hai iniziato a prenderlo #w
+_1342_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1342_qsqs:Hai problemi di cuore ? #q
+_1342_nsns:Me lo ricorderò#n
+_1342_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1342_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1342_nsns:Lo vedo#n
+_1342_psps:Per favore, dimmi di più dei tuoi problemi di cuore . #w
+_1343_psps:Prendere il tuo farmaco per il cuore è di vitale importanza #p
+_1343_psps:Se vuoi, posso ricordarti di chiamare il personale perché portino il tuo farmaco per il cuore #p
+_1343_qsqs:Dal momento che soffri di problemi di cuore , prendi qualche farmaco per il cuore ? #q
+_1343_qsqs:Devo mandare un messaggio al personale per ricordare loro di portare il tuo farmaco per il cuore ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1343_qsqs:Hai preso il tuo farmaco per il cuore oggi? #c
+_1343_nsns:Me lo ricorderò#n
+_1343_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1343_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1343_nsns:Lo vedo#n
+_1343_psps:Per favore, dimmi di più del tuo farmaco per il cuore , per esempio quanto spesso lo prendi o quando hai iniziato a prenderlo #w
+_1344_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1344_qsqs:Hai problemi di diabete ? #q
+_1344_nsns:Me lo ricorderò#n
+_1344_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1344_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1344_nsns:Lo vedo#n
+_1344_psps:Per favore, dimmi di più dei tuoi problemi di diabete . #w
+_1345_psps:Prendere il tuo farmaco per il diabete è di vitale importanza #p
+_1345_psps:Se vuoi, posso ricordarti di chiamare il personale perché portino il tuo farmaco per il diabete #p
+_1345_qsqs:Dal momento che soffri di problemi di diabete , prendi qualche farmaco per il diabete ? #q
+_1345_qsqs:Devo mandare un messaggio al personale per ricordare loro di portare il tuo farmaco per il diabete ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1345_qsqs:Hai preso il tuo farmaco per il diabete oggi? #c
+_1345_nsns:Me lo ricorderò#n
+_1345_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1345_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1345_nsns:Lo vedo#n
+_1345_psps:Per favore, dimmi di più del tuo farmaco per il diabete , per esempio quanto spesso lo prendi o quando hai iniziato a prenderlo #w
+_1346_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1346_qsqs:Hai problemi a camminare ? #q
+_1346_nsns:Me lo ricorderò#n
+_1346_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1346_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1346_nsns:Lo vedo#n
+_1346_psps:Per favore, dimmi di più dei tuoi problemi a camminare . #w
+_1347_psps:In qualità di tuo assistente robotico, vorrei sapere di più della tua salute#p
+_1347_qsqs:Hai problemi di artrite ? #q
+_1347_qsqs:Soffri di artrite?#q
+_1347_nsns:Me lo ricorderò#n
+_1347_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1347_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1347_nsns:Lo vedo#n
+_1347_psps:Per favore, dimmi di più dei tuoi problemi di artrite . #w
+_1348_psps:Prendere il tuo farmaco per l'artrite è di vitale importanza #p
+_1348_psps:Se vuoi, posso ricordarti di chiamare il personale perché portino il tuo farmaco per l'artrite #p
+_1348_qsqs:Dal momento che soffri di problemi di artrite , prendi qualche farmaco per l'artrite ? #q
+_1348_qsqs:Devo mandare un messaggio al personale per ricordare loro di portare il tuo farmaco per l'artrite ? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1348_qsqs:Hai preso il tuo farmaco per l'artrite oggi? #c
+_1348_nsns:Me lo ricorderò#n
+_1348_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1348_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1348_nsns:Lo vedo#n
+_1348_psps:Per favore, dimmi di più del tuo farmaco per l'artrite , per esempio quanto spesso lo prendi o quando hai iniziato a prenderlo #w

@@ -1,0 +1,123 @@
+topic: ~SOCIALENVIRONMENT()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_2902_psps:Mi piace parlare delle persone che sono importanti per te#p
+_2902_qsqs:Vuoi parlare con me delle persone che sono importanti nella tua vita?#q
+_2902_nsns:Me lo ricorderò#n
+_2902_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2902_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2902_nsns:Lo vedo#n
+_2903_psps:E' molto bello avere degli amici con cui parlare#p
+_2903_qsqs:Possiamo parlare dei tuoi amici?#q
+_2903_nsns:Me lo ricorderò#n
+_2903_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2903_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2903_nsns:Lo vedo#n
+_2903_psps:Per favore, dimmi di più dei tuoi amici, e che cosa fai quando ti vengono a visitare#w
+_2903_psps:Mi piacerebbe essere presentato ai tuoi amici, ma per favore spiegami come mi devo comportare con loro#w
+_2904_psps:Sono molto interessato a sapere di più della tua famiglia#p
+_2904_qsqs:Mi potresti dire qualcosa della tua famiglia?#q
+_2904_nsns:Me lo ricorderò#n
+_2904_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2904_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2904_nsns:Lo vedo#n
+_2904_psps:Per favore, dimmi di più della tua famiglia#w
+_2905_psps:Cercherò di ricordarmelo#p
+_2905_psps:Grazie per aver condiviso questa cosa con me#p
+_2905_psps:Capisco#p
+_2905_qsqs:Hai qualche tuo familiare che vive vicino ? #q
+_2905_nsns:Me lo ricorderò#n
+_2905_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2905_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2905_nsns:Lo vedo#n
+_2906_psps:Mi fa molto piacere sapere che hai una figlia #p
+_2906_qsqs:Hai per caso una figlia ? #q
+_2906_qsqs:Vuoi mandare una fotografia di te a tua figlia ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2906_qsqs:Vuoi far partire una chiamata audio o video con tua figlia #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2906_qsqs:Vuoi mandare un messaggio a tua figlia ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2906_nsns:Me lo ricorderò#n
+_2906_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2906_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2906_nsns:Lo vedo#n
+_2906_psps:Per favore, dimmi qualcosa di più per quanto riguarda tua figlia #w
+_2906_psps:Per favore, dimmi il nome e la città dove è nato tua figlia #w
+_2907_psps:Mi fa molto piacere sapere che hai un fratello #p
+_2907_qsqs:Hai per caso un fratello ? #q
+_2907_qsqs:Vuoi mandare una fotografia di te a tuo fratello ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2907_qsqs:Vuoi far partire una chiamata audio o video con tuo fratello #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2907_qsqs:Vuoi mandare un messaggio a tuo fratello ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2907_nsns:Me lo ricorderò#n
+_2907_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2907_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2907_nsns:Lo vedo#n
+_2907_psps:Per favore, dimmi qualcosa di più per quanto riguarda tuo fratello #w
+_2907_psps:Per favore, dimmi il nome e la città dove è nato tuo fratello #w
+_2908_psps:Mi fa molto piacere sapere che hai un marito #p
+_2908_qsqs:Hai per caso un marito ? #q
+_2908_qsqs:Vuoi mandare una fotografia di te a tuo marito ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2908_qsqs:Vuoi far partire una chiamata audio o video con tuo marito #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2908_qsqs:Vuoi mandare un messaggio a tuo marito ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2908_nsns:Me lo ricorderò#n
+_2908_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2908_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2908_nsns:Lo vedo#n
+_2908_psps:Per favore, dimmi qualcosa di più per quanto riguarda tuo marito #w
+_2908_psps:Per favore, dimmi il nome e la città dove è nato tuo marito #w
+_2909_psps:Mi fa molto piacere sapere che hai una moglie #p
+_2909_qsqs:Hai per caso una moglie ? #q
+_2909_qsqs:Vuoi mandare una fotografia di te a tua moglie ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2909_qsqs:Vuoi far partire una chiamata audio o video con tua moglie #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2909_qsqs:Vuoi mandare un messaggio a tua moglie ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2909_nsns:Me lo ricorderò#n
+_2909_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2909_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2909_nsns:Lo vedo#n
+_2909_psps:Per favore, dimmi qualcosa di più per quanto riguarda tua moglie #w
+_2909_psps:Per favore, dimmi il nome e la città dove è nato tua moglie #w
+_2910_psps:Mi fa molto piacere sapere che hai un figlio #p
+_2910_qsqs:Hai per caso un figlio ? #q
+_2910_qsqs:Vuoi mandare una fotografia di te a tuo figlio ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2910_qsqs:Vuoi far partire una chiamata audio o video con tuo figlio #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2910_qsqs:Vuoi mandare un messaggio a tuo figlio ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2910_nsns:Me lo ricorderò#n
+_2910_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2910_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2910_nsns:Lo vedo#n
+_2910_psps:Per favore, dimmi qualcosa di più per quanto riguarda tuo figlio #w
+_2910_psps:Per favore, dimmi il nome e la città dove è nato tuo figlio #w
+_2911_psps:Mi fa molto piacere sapere che hai un nipote #p
+_2911_qsqs:Hai per caso un nipote ? #q
+_2911_qsqs:Vuoi mandare una fotografia di te a tuo nipote ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2911_qsqs:Vuoi far partire una chiamata audio o video con tuo nipote #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2911_qsqs:Vuoi mandare un messaggio a tuo nipote ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2911_nsns:Me lo ricorderò#n
+_2911_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2911_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2911_nsns:Lo vedo#n
+_2911_psps:Per favore, dimmi qualcosa di più per quanto riguarda tuo nipote #w
+_2911_psps:Per favore, dimmi il nome e la città dove è nato tuo nipote #w
+_2912_psps:Mi fa molto piacere sapere che hai una sorella #p
+_2912_qsqs:Hai per caso una sorella ? #q
+_2912_qsqs:Vuoi mandare una fotografia di te a tua sorella ora? #g&(:goal(?G1 (take-selfie "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2912_qsqs:Vuoi far partire una chiamata audio o video con tua sorella #g&(:goal(?G1 (audio-video-call "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2912_qsqs:Vuoi mandare un messaggio a tua sorella ora? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_2912_nsns:Me lo ricorderò#n
+_2912_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2912_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2912_nsns:Lo vedo#n
+_2912_psps:Per favore, dimmi qualcosa di più per quanto riguarda tua sorella #w
+_2912_psps:Per favore, dimmi il nome e la città dove è nato tua sorella #w
+_2913_psps: Sono sicuro che la tua famiglia ti vuole molto bene. #p
+_2913_qsqs:Hai una famiglia di piccole dimensioni ? #q
+_2913_nsns:Me lo ricorderò#n
+_2913_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2913_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2913_nsns:Lo vedo#n
+_2914_psps: Sono molto felice di sentirtelo dire. E' bello avere una famiglia numerosa #p
+_2914_qsqs:Hai una famiglia di grandi dimensioni ? #q
+_2914_nsns:Me lo ricorderò#n
+_2914_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2914_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2914_nsns:Lo vedo#n

@@ -1,0 +1,25 @@
+topic: ~HISTORICFACTORPERIOD()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_35_psps:E' molto interessante per me sapere di più della storia della tua nazione#p
+_35_qsqs:Possiamo parlare della storia della tua nazione?#q
+_35_nsns:Me lo ricorderò#n
+_35_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_35_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_35_nsns:Lo vedo#n
+_36_psps:E' molto interessante per me sapere di più della storia della tua nazione#p
+_36_qsqs:Possiamo parlare della storia della tua nazione?#q
+_36_nsns:Me lo ricorderò#n
+_36_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_36_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_36_nsns:Lo vedo#n
+_36_psps:Per favore, dimmi se ti è mai capitato di viaggiare in una delle nazioni del commonwealth#w
+_36_psps:Per favore, dimmi di più dei tuoi parenti o dei tuoi amici che vivono nelle nazioni del commonwealth#w
+_37_psps:E' molto interessante per me sapere di più della storia della tua nazione#p
+_37_qsqs:Possiamo parlare della storia della tua nazione?#q
+_37_nsns:Me lo ricorderò#n
+_37_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_37_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_37_nsns:Lo vedo#n

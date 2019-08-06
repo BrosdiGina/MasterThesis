@@ -1,0 +1,41 @@
+topic: ~ADDRESSING()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_0_psps:Va bene#p
+_0_qsqs:Posso chiederti di nuovo come devo chiamarti?#q
+_0_nsns:Va bene#n
+_1_psps:E' importante per me sapere come ti devo chiamare. Voglio usare le parole giuste.#p
+_1_qsqs:Posso chiederti come devo chiamarti quando stiamo parlando ?#q
+_1_nsns:Nessun problema, allora#n
+_2_psps:Ti chiamerò zio ! #p
+_2_qsqs:Posso prendermi la confidenza di chiamarti zio ? #q
+_2_nsns:Nessun problema, allora#n
+_3_psps:Mi sembra di capire che ti faccia piacere che io ti chiami  Rossi San  #p
+_3_qsqs:Posso chiamarti  Rossi San  ? #q
+_3_nsns:Nessun problema, allora#n
+_4_psps:Mi sembra di capire che ti faccia piacere che io ti chiami  Signora Rossi  #p
+_4_qsqs: So che le persone inglesi di solito preferiscono farsi chiamare per cognome. Posso chiamarti signora Rossi? #q
+_4_nsns:Nessun problema, allora#n
+_5_psps:Mi sembra di capire che ti faccia piacere che io ti chiami con un soprannome #p
+_5_qsqs:Posso chiamarti con un soprannome ? #q
+_5_nsns:Nessun problema, allora#n
+_6_psps:Ti chiamerò zietta ! #p
+_6_qsqs:Posso prendermi la confidenza di chiamarti zietta ? #q
+_6_nsns:Nessun problema, allora#n
+_7_psps:Ti chiamerò zio ! #p
+_7_qsqs:Posso prendermi la confidenza di chiamarti zio ? #q
+_7_nsns:Nessun problema, allora#n
+_8_psps:Mi sembra di capire che ti faccia piacere che io ti chiami per cognome, signor eccetera eccetera #p
+_8_qsqs:Posso chiamarti per cognome, signor eccetera eccetera ? #q
+_8_nsns:Nessun problema, allora#n
+_9_psps:Ti chiamerò zietta ! #p
+_9_qsqs:Posso prendermi la confidenza di chiamarti zietta ? #q
+_9_nsns:Nessun problema, allora#n
+_10_psps:Mi sembra di capire che ti faccia piacere che io ti chiami  Maria  #p
+_10_qsqs: So che gli inglesi di solito preferiscono farsi chiamare con il loro nome proprio. Posso chiamarti Maria? #q
+_10_nsns:Nessun problema, allora#n
+_11_psps:Mi sembra di capire che ti faccia piacere che io ti chiami  Signorina Rossi  #p
+_11_qsqs: So che la maniera solita per chiamare una donna inglese è con il titolo signora o signorina seguito dal cognome. Ma so anche che le generazioni più giovani sono meno formali. Posso chiamarti signorina Rossi? #q
+_11_nsns:Nessun problema, allora#n

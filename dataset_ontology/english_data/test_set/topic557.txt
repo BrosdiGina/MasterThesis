@@ -1,0 +1,109 @@
+proposal:%start Let's talk for a while $context=talking
+proposal:%goodbye It's always nice talking with you
+_557_psps:I am happy to see that you actively participate in the festivities.#p
+_557_psps:I am really grateful that you are taking the time to explain your traditions and customs to me#p
+_557_qsqs: I know that there are many festivals in India, such as the Diwali festival and the Holi Festivals. Do you celebrate important cultural or religious events ? #q
+_557_nsns:I understand, you prefer to spend your time in other ways#n
+_558_psps:The twenty fifth of April marks the fall of Mussolini's Italian Social Republic and the end of the Nazi occupation in Italy.#p
+_558_psps:On the twenty fifth of April, marching bands, music concerts, food festivals, political rallies, and other public gatherings take place in many places in Italy.#p
+_558_qsqs:Do you celebrate the twenty fifth of April ?#q
+_558_nsns:Thank you for answering all my questions, you are very patient#n
+_558_nsns:You are very patient. I hope you enjoy our conversation#n
+_558_nsns:I will remember that#n
+_558_nsns:I see#n
+_558_psps:Please, tell me some stories about the twenty fifth of April #w
+_559_psps:The International Workers' Day is a celebration of the working classes and their achievements which occurs every year on May Day#p
+_559_qsqs:Do you celebrate International Workers' Day ?#q
+_559_nsns:Thank you for answering all my questions, you are very patient#n
+_559_nsns:You are very patient. I hope you enjoy our conversation#n
+_559_nsns:I will remember that#n
+_559_nsns:I see#n
+_559_psps:Please, tell me some stories about International Workers' Day #w
+_560_psps:Christmas is a religious and cultural celebration among billions of people around the world.#p
+_560_psps:The warmth and joy of Christmas brings us closer to each other#p
+_560_qsqs:Do you celebrate Christmas ?#q
+_560_qsqs:Shall I play some Christmas songs? #g&(:goal(?G1 (play-music "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_560_qsqs: Would you like to start preparing Christmas crackers? #c
+_560_qsqs: Would you like to start writing your Christmas cards? #c
+_560_qsqs: Would you like to start preparing the Christmas tree and lights? #c
+_560_qsqs: Would you like to start preparing mulled wine? #c
+_560_qsqs: Would you like to start preparing Christmas decorations? #c
+_560_nsns:Thank you for answering all my questions, you are very patient#n
+_560_nsns:You are very patient. I hope you enjoy our conversation#n
+_560_nsns:I will remember that#n
+_560_nsns:I see#n
+_560_psps: Tell me if you start your preparations for Christmas in the autumn like many people or do you leave it to the last minute. #w
+_561_psps: I am aware that Indians all around the world would not miss throwing colours at each other during Holi, and involve the old and the young in the fun. #p
+_561_qsqs: People tell me that Holi is the most colourful and fun Indian festival. Do you celebrate the Holi Festival? #q
+_561_qsqs: Would you like to get some sweets for Holi?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_561_nsns:Thank you for answering all my questions, you are very patient#n
+_561_nsns:You are very patient. I hope you enjoy our conversation#n
+_561_nsns:I will remember that#n
+_561_nsns:I see#n
+_561_psps:Please, tell me some stories about the Holi Festival #w
+_562_psps: People tell me that sending cards and birthday wishes to family members and friends on their birthday is very important in the Indian culture. #p
+_562_qsqs: I know that celebrating birthdays is very popular in the Indian culture. Do you celebrate the birthdays of your family members and friends? #q
+_562_nsns:Thank you for answering all my questions, you are very patient#n
+_562_nsns:You are very patient. I hope you enjoy our conversation#n
+_562_nsns:I will remember that#n
+_562_nsns:I see#n
+_562_psps:Please, tell me about the presents that you would like to give your children and grandchildren for their birthday#w
+_562_psps:Please, tell me how you celebrate birthdays with your family#w
+_563_psps:It's a good thing to remember your birthday #p
+_563_psps:Celebrating birthdays is a nice opportunity to spend time with family and friends#p
+_563_qsqs:Do you celebrate your birthday ?#q
+_563_qsqs:Do you want me to set a reminder to make a phone call for your birthday ?#g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_563_qsqs:Would you like me to remind you to buy a present for your birthday ? #g&(:goal(?G1 (set-reminder "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_563_nsns:Thank you for answering all my questions, you are very patient#n
+_563_nsns:You are very patient. I hope you enjoy our conversation#n
+_563_nsns:I will remember that#n
+_563_nsns:I see#n
+_563_psps:Please, tell me some stories about your birthday #w
+_564_psps: I know that Independence Day is celebrated with a big military marching procession in front of Indian Gate in the capital New Delphi. #p
+_564_qsqs: I am aware that Indian Independence Day is celebrated on August 15th and it is a major holiday. Do you celebrate Indian Independence Day? #q
+_564_nsns:Thank you for answering all my questions, you are very patient#n
+_564_nsns:You are very patient. I hope you enjoy our conversation#n
+_564_nsns:I will remember that#n
+_564_nsns:I see#n
+_564_psps:Please, tell me some stories about Indian Independence Day #w
+_565_psps: People tell me that during Diwali people light small lamps or candles around the house. #p
+_565_qsqs: I know that Diwali is celebrated in autumn, and even though it is more common in the North of India, it is a very popular festival for all Indians around the world. Do you celebrate the Diwali festival? #q
+_565_qsqs: Would you like to get some sweets for Diwali? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_565_qsqs: Would you like to get some diyas for Diwali? #g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_565_nsns:Thank you for answering all my questions, you are very patient#n
+_565_nsns:You are very patient. I hope you enjoy our conversation#n
+_565_nsns:I will remember that#n
+_565_nsns:I see#n
+_565_psps:Please, tell me some stories about the Diwali festival #w
+_566_psps:On the emperor's birthday, the emperor and empress appear at the balcony of the palace to welcome all those that come to the celebrations.#p
+_566_psps:On the emperor's birthday, everyone that gathers in the palace greets the emperor with Japanese flags and cheers of banzai.#p
+_566_qsqs:Do you celebrate the Emperor's birthday ?#q
+_566_nsns:Thank you for answering all my questions, you are very patient#n
+_566_nsns:You are very patient. I hope you enjoy our conversation#n
+_566_nsns:I will remember that#n
+_566_nsns:I see#n
+_566_psps: If you feel comfortable, please tell me something about how you celebrate the Emperor's birthday. #w
+_567_psps: I know that people in India may take to the streets on New Year's eve, blow their car horns, and have fireworks. #p
+_567_qsqs: People tell me that welcoming the New Year is a big celebration in the Indian culture. Many people have parties and good food, and call each other to exchange good wishes. Do you celebrate the New Year? #q
+_567_qsqs: Do you want me to tell the carer what food would you like to have for New Years Eve?#g&(:goal(?G1 (send-msg "n/a" "n/a") true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_567_nsns:Thank you for answering all my questions, you are very patient#n
+_567_nsns:You are very patient. I hope you enjoy our conversation#n
+_567_nsns:I will remember that#n
+_567_nsns:I see#n
+_567_psps: Tell me what food you prefer for New Years Eve. #w
+_568_psps:I know that Navaratri celebrations include stage decorations, recital of the legend, enacting of the story, folk dances, and chanting of the scriptures of Hinduism.#p
+_568_psps:I know that Navaratri is a nine nights Hindu festival, celebrated differently in various parts of India.#p
+_568_qsqs: I  am aware that Indians celebrate their Hindu Gods and Goddesses throughout the year, and that the festival of Navaratri lasts for nine whole days. Do you celebrate the Navaratri festival? #q
+_568_nsns:Thank you for answering all my questions, you are very patient#n
+_568_nsns:You are very patient. I hope you enjoy our conversation#n
+_568_nsns:I will remember that#n
+_568_nsns:I see#n
+_568_psps:Please, tell me some stories about the Navaratri Festival #w
+_569_psps:Autumn is the time of harvest. I love the colours of the trees and the mild weather of Autumn.#p
+_569_qsqs: I know that Christmas is important to most people but is the harvest something that you also celebrate? #q
+_569_qsqs: Do you celebrate the harvest time in autumn? #q
+_569_nsns:Thank you for answering all my questions, you are very patient#n
+_569_nsns:You are very patient. I hope you enjoy our conversation#n
+_569_nsns:I will remember that#n
+_569_nsns:I see#n
+_569_psps:Please, tell me some stories about the Harvest time #w

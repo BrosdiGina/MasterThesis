@@ -1,0 +1,97 @@
+topic: ~LIFE()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_1779_psps:E' interessante sapere di più della tua vita!#p
+_1779_qsqs:Mi puoi dire qualcosa della tua vita?#q
+_1779_nsns:Me lo ricorderò#n
+_1779_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1779_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1779_nsns:Lo vedo#n
+_1780_psps:E' molto importante continuare ad imparare cose nuove. Possiamo continuare a imparare per tutta la vita#p
+_1780_qsqs:Possiamo parlare della scuola che hai frequentato?#q
+_1780_nsns:Me lo ricorderò#n
+_1780_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1780_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1780_nsns:Lo vedo#n
+_1780_psps:Per favore, dimmi di più della tua istruzione#w
+_1780_psps:Per favore, dimmi a quale scuola sei andato e quali erano le tue materie preferite#w
+_1781_psps:E' interessante sapere di più della tua vita!#p
+_1781_qsqs:Possiamo parlare del tuo lavoro?#q
+_1781_nsns:Me lo ricorderò#n
+_1781_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1781_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1781_nsns:Lo vedo#n
+_1781_psps:Dimmi qualcosa di te è qual era il tuo lavoro#w
+_1781_psps:Per favore, dimmi che lavoro facevi e cosa dovevi fare#w
+_1781_psps:Molte professioni sono cambiate negli anni. Per favore, dimmi come sono cambiate le cose nel lavoro che facevi tu#w
+_1781_psps:Per favore, dimmi se ti piaceva il tuo lavoro.#w
+_1781_psps:Dimmi se il tuo posto di lavoro era distante da casa. So che un mucchio di persone deve fare lunghi tragitti.#w
+_1782_psps:E' interessante sapere di più della tua vita!#p
+_1782_qsqs:Mi puoi dire qualcosa della tua vita?#q
+_1782_nsns:Me lo ricorderò#n
+_1782_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1782_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1782_nsns:Lo vedo#n
+_1782_psps: Dimmi qualcosa del tuo retaggio culturale. Sono molto interessato. #w
+_1783_psps:E' interessante sapere di più della tua vita!#p
+_1783_qsqs:Mi puoi dire qualcosa della tua vita?#q
+_1783_nsns:Me lo ricorderò#n
+_1783_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1783_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1783_nsns:Lo vedo#n
+_1783_psps: Dimmi qualcosa del tuo retaggio culturale. Sono molto interessato. #w
+_1784_psps:E' interessante sapere di più della tua vita!#p
+_1784_qsqs:Hai sposato qualcuno?#q
+_1784_nsns:Me lo ricorderò#n
+_1784_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1784_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1784_nsns:Lo vedo#n
+_1784_psps:Dimmi di più del tuo matrimonio, se ti fa piacere#w
+_1785_psps:tua moglie deve proprio essere una brava persona #p
+_1785_psps:tua moglie si prende senz'altro cura di te #p
+_1785_qsqs:Possiamo parlare un po' di tua moglie ? #q
+_1785_nsns:Me lo ricorderò#n
+_1785_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1785_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1785_nsns:Lo vedo#n
+_1785_psps:Raccontami qualcos'altro di tua moglie , se ti fa piacere #w
+_1786_psps:tuo marito deve proprio essere una brava persona #p
+_1786_psps:tuo marito si prende senz'altro cura di te #p
+_1786_qsqs:Possiamo parlare un po' di tuo marito ? #q
+_1786_nsns:Me lo ricorderò#n
+_1786_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1786_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1786_nsns:Lo vedo#n
+_1786_psps:Raccontami qualcos'altro di tuo marito , se ti fa piacere #w
+_1787_psps:Adoro le storie della tua infanzia. Potrei ascoltarti per ore e ore#p
+_1787_qsqs:Possiamo parlare della tua infanzia?#q
+_1787_nsns:Me lo ricorderò#n
+_1787_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1787_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1787_nsns:Lo vedo#n
+_1787_psps:Per favore, dimmi di più della tua infanzia, e dei tuoi fratelli e sorelle, se ne hai#w
+_1787_psps:Per favore, dimmi di più della tua infanzia e del posto dove vivevi#w
+_1787_psps:Per favore, dimmi di più della tua infanzia, gli amici con cui giocavi e cosa facevate assieme#w
+_1788_psps:E' molto interessante per me sapere di più della storia della tua nazione#p
+_1788_qsqs:Possiamo parlare della storia della tua nazione?#q
+_1788_nsns:Me lo ricorderò#n
+_1788_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1788_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1788_nsns:Lo vedo#n
+_1789_psps: Fare musica è davvero bellissimo #p
+_1789_qsqs:suoni uno strumento musicale , a volte ? #q
+_1789_qsqs:Vuoi impostare una sveglia per suonare il tuo strumento?#g&(:goal(?G1 (set-reminder playingAMusicalInstrument) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))
+_1789_qsqs:suoni uno strumento musicale , e questa è proprio una bella cosa. Pensi di farlo oggi? #c
+_1789_nsns:Va bene, suonare il tuo strumento is not everyone's cup of tea.#n
+_1789_nsns:Va bene, suonare il tuo strumento non deve per forza piacere a tutti #n
+_1789_psps: Per favore, dimmi quale strumento suonavi quando eri bambino, o se ti piaceva di più cantare #w
+_1790_psps:gli animali sono divertenti e fanno molta compagnia #p
+_1790_psps:Adoro gli animali , sono così sorprendenti #p
+_1790_qsqs: Avevi qualche animale in casa, quando eri bambino?  #q
+_1790_nsns:Me lo ricorderò#n
+_1790_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_1790_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_1790_nsns:Lo vedo#n
+_1790_psps: Per favore, dimmi di più dell'animale che avevi in casa quando eri bambino #w

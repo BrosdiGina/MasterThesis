@@ -1,0 +1,28 @@
+topic: ~MANNER()
+language: iti
+
+proposal:%start Potremmo parlare per un po' $context=talking
+proposal:%goodbye Mi ha fatto piacere parlare con te!
+_2436_psps:le buone maniere sono molto importanti per mantenere buone relazioni con le altre persone #p
+_2436_qsqs:Mi piacerebbe molto sapere cosa pensi per quanto riguarda le buone maniere . Ti spiace spiegarmi cosa sono per te le buone maniere ? #q
+_2436_nsns:Me lo ricorderò#n
+_2436_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2436_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2436_nsns:Lo vedo#n
+_2436_psps:Capisco che le regole di comportamento possano essere differenti per diverse persone. Per favore, dimmi qualcosa per quanto riguarda le buone maniere che contano per te #w
+_2437_psps:Le persone, di solito, sono molto felici quando ricevono un regalo#p
+_2437_qsqs:Pensi che fare un regalo a uno della famiglia o a un amico sia una bella cosa? #q
+_2437_nsns:Me lo ricorderò#n
+_2437_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2437_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2437_nsns:Lo vedo#n
+_2437_psps:Per favore, spiegami quali sono le buone maniere, quando si tratta di regali#w
+_2437_psps:Per favore, dimmi in che occasione è una buona idea fare un regalo a uno della famiglia o a un amico  #w
+_2438_psps:impilare i piatti dopo mangiato aiuta il personale a capire che hai finito il tuo pasto. #p
+_2438_psps:impilare i piatti dopo mangiato è un modo per aiutare il personale, grazie! #p
+_2438_qsqs:Pensi che impilare i piatti dopo mangiato sia una gentilezza ? #q
+_2438_nsns:Me lo ricorderò#n
+_2438_nsns:Sei molto paziente. Spero che parlare con me ti faccia piacere#n
+_2438_nsns:Grazie per aver risposto a tutte le mie domande, sei davvero paziente #n
+_2438_nsns:Lo vedo#n
+_2438_psps:Per favore, dimmi cosa pensi a proposito di impilare i piatti dopo mangiato #w
