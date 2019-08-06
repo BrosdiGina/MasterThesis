@@ -4,7 +4,7 @@
 
 To obtain the english version of the ontology, open a new terminal and launch:
 
-``
+```
 $ cd src/code_english_version
 $ python main.py
 ```
