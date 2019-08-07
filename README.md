@@ -1,6 +1,10 @@
 # Master Thesis Project
 
-This code implements a model able to make extroverted sentences introverted and vice versa. The study is based on a previous work discussed in [Taking Care of the Linguistic Feature of Extraversion] (https://pdfs.semanticscholar.org/3af6/a855b58a56c4ddb87caa24dce52c620d12ef.pdf)
+This code implements a model able to make extroverted sentences introverted and vice versa. The study is based on a previous work discussed in [LG G WATCH R](https://www.lg.com/wearable-technology/lg-G-Watch-R-W110)
+
+
+
+[Taking Care of the Linguistic Feature of Extraversion] (https://pdfs.semanticscholar.org/3af6/a855b58a56c4ddb87caa24dce52c620d12ef.pdf)
 
 ## Run the Project
 
